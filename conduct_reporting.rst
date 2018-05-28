@@ -35,14 +35,14 @@ If you would prefer to contact a person directly, you can reach to us directly:
 Alan Vezina
 
 * alan@pycascades.com
-* TODO
-* slack: alan
+* +1 (206) 637 6468
+* slack: @alan
 
 Thea Flowers
 
 * thea@pycascades.com
 * + 1 (678) 588 8466
-* slack: thea
+* slack: @thea
 
 
 What to include in the report
