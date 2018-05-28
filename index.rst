@@ -5,6 +5,8 @@
 
    hike
    code_of_conduct
+   conduct_reporting
+   conduct_response
 
 
 .. raw:: html

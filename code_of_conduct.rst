@@ -64,7 +64,7 @@ What to do in case of violations
 
 If you believe that someone is violating the code of conduct during one of our events, please contact a member of the event staff immediately. Event staff can be identified by t-shirts/special badges.
 
-If you believe someone is violating the code of conduct in one of our online platforms, we ask that you report it by emailing **conduct@pycascades.org**. To help us respond in the best way to the situation, please follow the :doc:`/code-of-conduct-reporting`. The code of conduct representatives employ the :doc:`/code-of-conduct-response` to handle reports.
+If you believe someone is violating the code of conduct in one of our online platforms, we ask that you report it by emailing **conduct@pycascades.org**. To help us respond in the best way to the situation, please follow the :doc:`conduct_reporting`. The code of conduct representatives employ the :doc:`conduct_response` to handle reports.
 
 All reports will be kept confidential. In some cases a public statement might be required (for example in a CoC transparency report following conferences), but these reports are anonymized and do not include any personally identifying information.
 
