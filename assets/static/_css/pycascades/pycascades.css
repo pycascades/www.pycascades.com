@@ -615,6 +615,7 @@ footer .links li a:hover {
 }
 #sponsors .sponsor-logos .heading {
     text-align: center;
+    margin-top: 25px;
 }
 #sponsors .sponsor-logos .item {
     display: inline-block;
