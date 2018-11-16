@@ -1,7 +1,7 @@
 extends "base.jade"
 
 block page_title
-    |{{ this.title }} &mdash; {{ this.date|dateformat("EEEE, dd MMMM yyyy") }}
+    |{{ this.date|dateformat("EEEE, dd MMMM yyyy") }} &mdash; {{super()}}
 
 block meta_description
     |{{ this.title }} &mdash; {{ this.date|dateformat("EEEE, dd MMMM yyyy") }}
