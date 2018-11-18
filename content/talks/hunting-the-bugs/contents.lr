@@ -2,9 +2,9 @@ _model: talk
 ---
 _template: talk.jade
 ---
-speaker: mariak@mariakathryn.net
+speaker: Maria McKinley
 ---
-bio: My name is Maria Mckinley, and I am a Senior Software Engineer at the Walt Disney Company. I write backend REST APIs, tools for sys-admins and sys-ops, written in Python. I also teach in the Python Certificate Program at the University of Washington Continuing Education, as well as internally at Disney. I love to help people to learn Python and I love the Flying Circus.
+bio: My name is Maria McKinley, and I am a Senior Software Engineer at the Walt Disney Company. I write backend REST APIs, tools for sys-admins and sys-ops, written in Python. I also teach in the Python Certificate Program at the University of Washington Continuing Education, as well as internally at Disney. I love to help people to learn Python and I love the Flying Circus.
 ---
 company: Walt Disney Company
 ---
