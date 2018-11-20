@@ -661,11 +661,14 @@ footer .links li a:hover {
         width: 640px;
         height: 200px;
     }
-    #sponsors .sponsor-logos .item.item.platinum,
-    #sponsors .sponsor-logos .item.item.gold,
+    #sponsors .sponsor-logos .item.platinum {
+        width: 480px;
+        height: 160px;
+    }
+    #sponsors .sponsor-logos .item.gold,
     #sponsors .sponsor-logos .item.silver {
-        width: 300px;
-        height: 120px;
+        width: 280px;
+        height: 100px;
     }
 
     .conduct-violations {
