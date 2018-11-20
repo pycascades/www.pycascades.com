@@ -1,0 +1,13 @@
+_template: news-item.jade
+---
+title: Speakers and talks are available now
+---
+author: PyCascades Team
+---
+date: 2018-11-19
+---
+meta_description: Our speaker and talks selection can now be viewed on the website.
+---
+body:
+
+....
