@@ -4,6 +4,8 @@ name: Metis
 ---
 tier: platinum
 ---
+is_npo: true
+---
 website: http://www.thisismetis.com/
 ---
 logo: metis_logo.png
