@@ -11,17 +11,17 @@ program:
 start, end, description
 8:30am, 9:30am, Registration
 9:30am, 9:45am, Welcome to PyCascades
-9:45am, 10:10am, Nina Zakharenko: Light Up Your Life - With Python and LEDs! 
-10:20am, 10:45am, Dustin Ingram: Data Protection for Developers: Past, Present, and Future
-10:55am, 11:20am, Omayeli Arenyeka: Building a Gendered Dictionary
+9:45am, 10:10am, "Nina Zakharenko: Light Up Your Life - With Python and LEDs! "
+10:20am, 10:45am, "Dustin Ingram: Data Protection for Developers: Past, Present, and Future"
+10:55am, 11:20am, "Omayeli Arenyeka: Building a Gendered Dictionary"
 11:20am, 11:35am, Break
-11:35am, 12:00pm, Andy Fundinger: A Taxonomy of Decorators: A-E
-12:10pm, 12:35pm, Paul Watts: Given this, assert that: fluent testing using fixtures and properties
+11:35am, 12:00pm, "Andy Fundinger: A Taxonomy of Decorators: A-E"
+12:10pm, 12:35pm, "Paul Watts: Given this, assert that: fluent testing using fixtures and properties"
 12:35pm, 1:50pm, Lunch
 1:50pm, 2:20pm, Lightning Talks
-2:30pm, 2:55pm, Kyungyun Lee: So tell me, what is your musical taste?
-3:05pm, 3:30pm, Chris Waigl: Abstraction for students of all the things
-3:40pm, 4:05pm, Abhishek Kapatkar: Nim for Python Programmers
+2:30pm, 2:55pm, "Kyungyun Lee: So tell me, what is your musical taste?"
+3:05pm, 3:30pm, "Chris Waigl: Abstraction for students of all the things"
+3:40pm, 4:05pm, "Abhishek Kapatkar: Nim for Python Programmers"
 4:05pm, 4:35pm, Coffee Break
-4:35pm, 5:00pm, Philip James and Asheesh Laroia: Account Security for the Fashionable App Developer
-5:10pm, 5:35pm, Trey Hunner: Meaningful Mentoring Moments
+4:35pm, 5:00pm, "Philip James and Asheesh Laroia: Account Security for the Fashionable App Developer"
+5:10pm, 5:35pm, "Trey Hunner: Meaningful Mentoring Moments"

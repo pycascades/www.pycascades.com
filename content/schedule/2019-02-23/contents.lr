@@ -11,17 +11,17 @@ program:
 start, end, description
 8:30am, 9:30am, Registration
 9:30am, 9:45am, Welcome to PyCascades
-9:45am, 10:10am, Katie McLaughlin: Turning 'wat' into 'why' 
-10:20am, 10:45am, Al Sweigart: The Amazing Mutable, Immutable Tuple 
-10:55am, 11:20am, Jigyasa Grover: Perceiving Python Programming Paradigms 
+9:45am, 10:10am, "Katie McLaughlin: Turning 'wat' into 'why'" 
+10:20am, 10:45am, "Al Sweigart: The Amazing Mutable, Immutable Tuple" 
+10:55am, 11:20am, "Jigyasa Grover: Perceiving Python Programming Paradigms" 
 11:20am, 11:35am, Break
-11:35am, 12:00pm, Iyanuoluwa Ajao: Type Hints: Adding Types to Legacy Code 
-12:10pm, 12:35pm, Maria McKinley: Hunting the bugs 
+11:35am, 12:00pm, "Iyanuoluwa Ajao: Type Hints: Adding Types to Legacy Code" 
+12:10pm, 12:35pm, "Maria McKinley: Hunting the bugs" 
 12:35pm, 1:50pm, Lunch
 1:50pm, 2:20pm, Lightning Talks
-2:30pm, 2:55pm, Norah Klintberg Sakal: Guide to your own artificial intelligence application in 3 easy steps 
-3:05pm, 3:30pm, Ania Kapuścińska: Lint your code responsibly! 
-3:40pm, 4:05pm, Chirag Shah: Understanding Multithreading 
+2:30pm, 2:55pm, "Norah Klintberg Sakal: Guide to your own artificial intelligence application in 3 easy steps" 
+3:05pm, 3:30pm, "Ania Kapuścińska: Lint your code responsibly!" 
+3:40pm, 4:05pm, "Chirag Shah: Understanding Multithreading" 
 4:05pm, 4:35pm, Coffee Break
-4:35pm, 5:00pm, Ben Berry: Who to blame for all your problems 
-5:10pm, 5:35pm, Hayley Denbraver: Recursion, Fractals, and the Python Turtle Module 
+4:35pm, 5:00pm, "Ben Berry: Who to blame for all your problems" 
+5:10pm, 5:35pm, "Hayley Denbraver: Recursion, Fractals, and the Python Turtle Module" 
