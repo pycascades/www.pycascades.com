@@ -656,6 +656,7 @@ footer .links li a:hover {
     display: inline-block;
     vertical-align: text-top;
     margin: 10px 20px;
+    width: 300px;
 }
 
 #sponsors .sponsor-logos .item > .logo {
@@ -704,6 +705,7 @@ footer .links li a:hover {
 
 @media (min-width: 750px) {
     #sponsors .sponsor-logos .item {
+        width: 480px;
         margin: 0 20px;
     }
 
