@@ -655,7 +655,6 @@ footer .links li a:hover {
 #sponsors .sponsor-logos .item {
     display: inline-block;
     vertical-align: text-top;
-    width: 300px;
     margin: 10px 20px;
 }
 
@@ -684,7 +683,7 @@ footer .links li a:hover {
 }
 
 #sponsors .sponsor-logos .item.silver .logo,
-#sponsors .sponsor-logos .item.silver_npo .logo{
+#sponsors .sponsor-logos .item.silver_npo .logo {
     width: 150px;
     height: 90px;
 }
@@ -705,7 +704,6 @@ footer .links li a:hover {
 
 @media (min-width: 750px) {
     #sponsors .sponsor-logos .item {
-        width: 480px;
         margin: 0 20px;
     }
 
@@ -751,8 +749,7 @@ footer .links li a:hover {
 
     #sponsors .sponsor-logos .item.silver .logo,
     #sponsors .sponsor-logos .item.silver_npo .logo {
-        width: 200px;
-        height: 40px;
+        height: 90px;
     }
 
     .conduct-violations {
