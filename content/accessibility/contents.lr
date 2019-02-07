@@ -1,0 +1,95 @@
+_template: page.jade
+---
+title: Accessibility
+---
+body:
+
+Accessibility
+=============
+
+We are committed to hosting a conference that is acceptable to everyone. This page contains accessibility information as well as links to other resources. If you have questions or require any additional accommodations, please reach out to accessibility@pycascades.com.
+
+Transportation
+---------------
+
+Seattle is located in King County. King County Transit has multiple options for accessible transport. Please take a look at `their website <http://metro.kingcounty.gov/tops/accessible/programs/index.html>`_ for details.
+
+About our venue
+----------------
+
+PyCascades 2019 will be hosted in the University of Washington's Kane Hall. We will be using two auditoriums, KNE 130 and KNE 120, as well as the Walker-Ames room for food & beverage service. You can read UW's `ADA Access Guide`_ for these rooms for more details, but most of it is included on this page for convenience.
+
+.. _ADA Access Guide: https://www.washington.edu/admin/ada/kane.php
+
+Wheelchair access
+------------------
+
+We personally walked through the campus to ensure wheelchair accessibility. There are ramps, no steps, no steep slopes, no lips on doors, automatic doors, and elevators. Please take a look at the campus map below and take a look at the accessibility information provided by the venue.
+
+.. raw:: html
+
+   <img class="accessibility-map" src="/static/images/kane-accessibility-map.png" title="Kane Hall Accessibility Map" alt="Kane Hall Accessibility Map">
+
+Parking
++++++++
+
+The `Central Plaza Garage`_ (underground) is closest, has wheelchair and disability parking on all levels. Use elevator #168 from the Garage to enter Kane Hall.
+
+.. _Central Plaza Garage: https://www.washington.edu/admin/ada/cntrlpar.php
+
+Entering the building
++++++++++++++++++++++
+
+- Entrance #7 to first floor has a level approach, a 32" doorway, and an automatic door with paddle controls.
+- Entrance #9 to the first floor has a level approach, a 32" doorway, and an automatic operator with paddle controls.
+- Entrance #11 has a level approach, a 31.5" doorway, and an automatic operator with paddle control.
+- Entrance #22 has a level approach, 31" doorway, and a pull handle.
+
+Moving between the auditoriums and the Walker-Ames room
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+- Elevator #166 serves the basement through the upper mezzanine. Highest buttons 39", Braille markers.
+- Elevator #168 serves the Central Parking Garage and the 1st and 2nd floors. Highest buttons 39", Braille markers.
+
+Seating
++++++++
+
+Both auditoriums have accessible seating. The main auditorium has `4 in the front and 2 in the back <http://www.cte.uw.edu/images/rooms/schematics/KNE_130_schematic.pdf>`_. Please ask any staff to direct you towards accessible seating. You can also reach out to diversity@pycascades.com in advance.
+
+Restrooms
++++++++++
+
+All restrooms at UW are ADA accessible, however, the venue does note that the most accessible restrooms are on the basement floor.
+
+
+Access to facilities for transgender and non-binary persons
+------------------------------------------------------------
+
+At PyCascades and in our venue, you are welcome to use the restroom and other gender-segregated facilities that you feel the most comfortable using. This is protected `under state law`_.
+
+In addition to access to gender-segregated facilities, we also have access to one gender-neutral restroom in Kane Hall. Unfortunately, this is located in the green room. Please ask any member of staff and they can show you how to find it. You can also reach out to us in advance to ensure you have access. Additionally, there are various `gender-neutral restrooms`_ located in other University of Washington buildings.
+
+In Washington State it is illegal to discriminate on the basis of perceived gender identity. PyCascades takes any discrimination seriously (see our `Code of Conduct`_). Please contact us if you experience any issues or if you have any concerns. Additionally, you may reach out to `Thea Flowers <mailto:thea@pycascades.com>`_ directly - she is the co-chair of the conference and is openly transgender.
+
+.. _under state law: https://www.aclu-wa.org/docs/rights-transgender-people-washington-state
+.. _gender-neutral restrooms: https://www.washington.edu/compliance/titleix/lgbtq/gender-neutral-restrooms/
+.. _Code of Conduct: /code-of-conduct
+
+Hearing-impaired
+-----------------
+
+We will have live captioning during the presentation. These captions will be visible in the main auditorium as well as in the quiet room. If you are hearing impaired and are not able to see the captions, a member of staff can move you to a closer seat.
+
+Interpreters are also welcome. Please reach out to us at accessibility@pycascades.com to let us know if you'll be bringing and interpreter as we'll need to issue them a ticket (at no charge) for security reasons.
+
+Vision-impaired
+----------------
+
+Our venue has braille markers on all rooms and elevators.
+
+We can provide large-print versions of materials for you if need. Please reach out to us at accessibility@pycascades.com so we can have those ready for you.
+
+Quiet room
+-----------
+
+While we will be using the main auditorium, KNE 130, for the conference, we also have the use of the adjacent auditorium, KNE 120. We will use this room exclusively as a quiet room. The conference will be lived streamed (without audio, but with captions) into the quiet room. Lights will be lowered in the quiet room. Staff will be available to keep the quiet room quiet and enjoyable for everyone.

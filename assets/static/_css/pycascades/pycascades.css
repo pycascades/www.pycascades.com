@@ -807,3 +807,8 @@ body.error #main {
     font-size: 1.5rem;
     color: #7100FF;
 }
+
+img.accessibility-map {
+    max-width: 100%;
+    margin-bottom: 2rem;
+}
