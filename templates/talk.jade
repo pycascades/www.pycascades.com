@@ -15,7 +15,7 @@ block main
     .container
 
         h1 {{ this.title }}
-        .byline {{ this.speaker }}
+        .byline {{ this.speaker }} {% if this.co_speaker %} &amp; {{this.co_speaker}} {% endif %}
         .abstract
             p {{ this.abstract.html }}
 
@@ -77,5 +77,55 @@ block main
                     #[i.fa.fa-github] {{ this.github }}
             {% endif %}
 
-        .more
-            a(href="{{ '/talks'|url }}") More Talks
+    {% if this.co_speaker %}
+    .container
+        {% set headshot = this.attachments.get('co_speaker_headshot.jpg') %}
+        {% if headshot %}
+        .headshot.image.bg-contain(
+            ff-bg="{{ headshot.thumbnail(200)|url }}",
+            ff-bg-2x="{{ headshot.thumbnail(400)|url }}"
+        )
+        {% else %}
+        .headshot.image.bg-contain(
+            ff-bg="/static/images/headshot.png",
+            ff-bg-2x="/static/images/headshot.png",
+        )
+        {% endif %}
+        h2 About {{ this.co_speaker }}
+        .biography
+            {{ this.co_speaker_bio.html }}
+        .contact
+            {% if this.co_speaker_website %}
+            .url
+                a(href="{{ this.co_speaker_website }}", target="_blank").
+                    #[i.fa.fa-external-link] {{ this.co_speaker_website }}
+            {% endif %}
+            {% if this.co_speaker_twitter %}
+            .twitter
+                a(
+                    href="https://www.twitter.com/{{ this.co_speaker_twitter }}",
+                    target="_blank"
+                ).
+                    #[i.fa.fa-twitter] {{ this.co_speaker_twitter }}
+            {% endif %}
+            {% if this.co_speaker_instagram %}
+            .instagram
+                a(
+                    href="https://www.instagram.com/{{ this.co_speaker_instagram }}",
+                    target="_blank"
+                ).
+                    #[i.fa.fa-instagram] {{ this.co_speaker_instagram }}
+            {% endif %}
+            {% if this.co_speaker_github %}
+            .github
+                a(
+                    href="https://www.github.com/{{ this.co_speaker_github }}",
+                    target="_blank"
+                ).
+                    #[i.fa.fa-github] {{ this.co_speaker_github }}
+            {% endif %}
+
+    {% endif %}
+
+    .more
+        a(href="{{ '/talks'|url }}") More Talks
