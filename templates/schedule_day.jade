@@ -33,7 +33,7 @@ block main
                     a(href="{{ talk|url }}").
                         #[span.title {{ talk.title }}]
                         <br/>
-                        #[span.speaker {{ talk.speaker }}]
+                        #[span.speaker meep {{ talk.speaker }} {% if talk.co_speaker %} &amp; {{talk.co_speaker}} {% endif %}]
                     {% else %}
                     #[span.label {{ timeslot.description }}]
                     {% endif %}
