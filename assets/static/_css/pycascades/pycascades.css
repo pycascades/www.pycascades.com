@@ -689,6 +689,12 @@ footer .links li a:hover {
     height: 90px;
 }
 
+#sponsors .sponsor-logos .item.supporting .logo,
+#sponsors .sponsor-logos .item.supporting_npo .logo {
+    width: 150px;
+    height: 90px;
+}
+
 #sponsors .sponsor-logos .item a {
     display: block;
     width: 100%;
@@ -751,6 +757,11 @@ footer .links li a:hover {
 
     #sponsors .sponsor-logos .item.silver .logo,
     #sponsors .sponsor-logos .item.silver_npo .logo {
+        height: 90px;
+    }
+
+    #sponsors .sponsor-logos .item.supporting .logo,
+    #sponsors .sponsor-logos .item.supporting_npo .logo {
         height: 90px;
     }
 
