@@ -45,6 +45,11 @@ footer .sponsor-logos-footer a img {
     padding: 0 1rem;
 }
 
+/* Hack: rover's logo is weird, adjust the padding to make it display correctly. */
+footer .sponsor-logos-footer li.silver {
+    margin-left: -1.5rem;
+}
+
 /* Prevent side scrolling */
 
 #page {
