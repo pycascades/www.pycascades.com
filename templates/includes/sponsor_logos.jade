@@ -10,7 +10,7 @@
 
         .item-list
             {% for sponsor in tier_sponsors %}
-            .item(class="{{sponsor.tier}}")
+            .item(class="{{sponsor.tier}} {{sponsor.id|lower|replace('.', '-')}}")
                 .logo
                     a.bg-contain(
                         href="{{sponsor.website}}"
@@ -32,7 +32,7 @@
 
         .item-list
         {% for sponsor in tier_sponsors %}
-        .item(class="{{sponsor.tier}}_npo")
+        .item(class="{{sponsor.tier}}_npo {{sponsor.name|lower|replace('.', '-')}}")
             .logo
                 a.bg-contain(
                 href="{{sponsor.website}}"

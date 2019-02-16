@@ -683,6 +683,12 @@ footer .links li a:hover {
     width: 250px;
     height: 200px;
 }
+
+/* Hack for UW logo being too smol */
+#sponsors .sponsor-logos .item.platinum_npo.uw .logo {
+    height: 200px;
+}
+
 #sponsors .sponsor-logos .item.gold .logo,
 #sponsors .sponsor-logos .item.gold_npo .logo {
     width: 200px;
