@@ -2,7 +2,7 @@
 
 #sponsors
     .sponsor-logos
-        {% for tier in ["diamond", "platinum", "gold", "silver", "supporting"] %}
+        {% for tier in ["diamond", "platinum", "gold", "silver"] %}
         {% set tier_sponsors = sponsors.filter(F.tier == tier).filter(F.is_npo == false) %}
         {% if tier_sponsors %}
         div.heading
@@ -45,3 +45,24 @@
         {% endif %}
 
         {% endfor %}
+
+
+        {% set supporting_sponsors = sponsors.filter(F.tier == "supporting") %}
+
+        {% if supporting_sponsors %}
+        div.heading
+            h3 {{supporting_sponsors.first().tier}}
+
+        .item-list
+        {% for sponsor in supporting_sponsors %}
+        .item(class="{{sponsor.tier}}_npo")
+            .logo
+                a.bg-contain(
+                href="{{sponsor.website}}"
+                target="_blank"
+                ff-bg="{{sponsor.url_path }}/{{sponsor.logo}}"
+                )
+            p {{ sponsor.description.html }}
+        {% endfor %}
+
+        {% endif %}
