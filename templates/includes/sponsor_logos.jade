@@ -22,7 +22,7 @@
         {% endif %}
         {% endfor %}
 
-        {% for tier in ["diamond", "platinum", "gold", "silver", "supporting"] %}
+        {% for tier in ["diamond", "platinum", "gold", "silver"] %}
 
         {% set tier_sponsors = sponsors.filter(F.tier == tier).filter(F.is_npo == true) %}
 
