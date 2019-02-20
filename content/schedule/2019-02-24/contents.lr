@@ -5,7 +5,7 @@ _template: schedule_day.jade
 title: Day 2
 ---
 date: 2019-02-24
---- 
+---
 program:
 
 start, end, description, link
@@ -16,7 +16,7 @@ start, end, description, link
 10:55am, 11:20am, "Omayeli Arenyeka: Building a Gendered Dictionary", /talks/building-a-gendered-dictionary/
 11:20am, 11:35am, Break,
 11:35am, 12:00pm, "Andy Fundinger: A Taxonomy of Decorators: A-E", /talks/a-taxonomy-of-decorators/
-12:10pm, 12:35pm, "Paul Watts: Given this, assert that: fluent testing using fixtures and properties", /talks/given-this-assert-that-fluent-testing-using-fixtures-and-properties/
+12:10pm, 12:35pm, "Chirag Shah: Understanding Multithreading", /talks/understanding-multithreading-by-deciphering-the-cpython-interpreter-source-code/
 12:35pm, 1:50pm, Lunch,
 1:50pm, 2:20pm, Lightning Talks,
 2:30pm, 2:55pm, "Kyungyun Lee: So tell me, what is your musical taste?", /talks/so-tell-me-what-is-your-musical-taste/
