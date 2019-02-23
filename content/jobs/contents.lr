@@ -1,0 +1,5 @@
+_model: jobs
+---
+_template: jobs.jade
+---
+title: PyCascades Job Board
