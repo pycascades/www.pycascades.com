@@ -1,0 +1,35 @@
+extends "base.jade"
+
+block page_title
+    |{{ this.title }} &mdash; {{super()}}
+
+block meta_description
+    | PyCascades Job Board
+
+block body_class
+    |sponsors job-detail
+
+block main
+
+    .job.container
+
+        h1.title
+            a(href="{{ this.apply_url }}").
+                {{ this.title }}
+        .meta
+            a(href="{{ this.sponsor_url }}")
+                #[span.company-name {{ this.sponsor }}]
+            {% if this.location %}
+            #[span.location {{ this.location }}]
+            {% endif %}
+
+        .description
+            {{ this.description|safe }}
+
+        .apply
+            a.button(href="{{ this.apply_url }}") Apply Now
+            a.button(href="{{ this.url }}") Learn More
+
+        p.more
+            a(href="{{ '/jobs'|url }}") More job postings
+

@@ -1,0 +1,29 @@
+extends "base.jade"
+
+block page_title
+    |{{ this.title }} &mdash; {{super()}}
+
+block meta_description
+    | PyCascades Job Board
+
+block body_class
+    |sponsors job-list
+
+block main
+
+    .container
+
+        h1 The PyCascades Job Board
+
+        .item-list
+
+            {% for job in site.query('/jobs') %}
+            .item
+                h3.title
+                    a(href="{{ job|url }}").
+                        {{ job.title }}
+                .company-name {{ job.sponsor }}
+                {% if job.location %}
+                .location {{ job.location }}
+                {% endif %}
+            {% endfor %}
