@@ -3,7 +3,7 @@ doctype html
 html
 
     head
-        title {% block page_title %}PyCascades 2019 &ndash; Seattle, WA{% endblock %}
+        title {% block page_title %}PyCascades 202 &ndash; Portland, Oregan{% endblock %}
         meta(charset="UTF-8")
         meta(http-equiv="content-Language", content="en_US")
         meta(name="google", content="notranslate") {# TEMP #}
@@ -13,7 +13,7 @@ html
         )
         meta(
             name="description",
-            content="Website for PyCascades 2019, a regional Python conference in the Pacific Northwest. This time in Seattle, Washington, USA."
+            content="Website for PyCascades 2020, a regional Python conference in the Pacific Northwest hosted in Portland, Oregon, USA."
         )
         meta(
             name="keywords",
@@ -22,7 +22,7 @@ html
         meta(property="og:url", content="http://www.pycascades.com")
         meta(
             property="og:description",
-            content="Website for PyCascades 2019, a regional Python conference in the Pacific Northwest, this time in Seattle, Washington, USA."
+            content="Website for PyCascades 2020, a regional Python conference in the Pacific Northwest hosted in Portland, Oregon, USA."
         )
         link(
             rel="stylesheet",
@@ -51,15 +51,15 @@ html
                         a.bg-contain.bg-ir(
                             href="{{ SITE_URL }}",
                             ff-bg="/static/images/header-logo.png"
-                        ) PyCascades 2019
+                        ) PyCascades 2020
                 {% include "includes/nav.jade" %}
 
             #main
                 block main
             
-            #banner
-                 a(href="#")
-                    strong Tickets#[br]Sold&nbsp;Out!
+            //- #banner
+            //-      a(href="#")
+            //-         strong Tickets#[br]Sold&nbsp;Out!
 
             footer
                 .container
