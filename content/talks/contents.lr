@@ -1,5 +1,7 @@
 _model: talks
 ---
+_hidden: true
+---
 _template: talks.jade
 ---
 title: Our Speakers

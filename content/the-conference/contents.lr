@@ -2,11 +2,12 @@ _template: about.jade
 ---
 title: What is PyCascades?
 ---
-background: /static/backgrounds/2018-conference-group-photo.jpg
+background: /static/backgrounds/2019-conference-group-photo.jpg
 ---
 body:
 
-PyCascades is a two-day Python conference that will be held February 23rd and
-24th, 2019 in the scenic coastal city of Seattle, Washington (USA).
+PyCascades is a two-day, single-track Python conference.
 
-Organized by members of the Python communities in Vancouver, Seattle, and Portland, we aim to bring together Python users and developers from both the Pacific Northwest and around the world.
+We previously hosted PyCascades in Vancouver and Seattle. For our third iteration in 2020 we'll be in Portland, Oregon.
+
+PyCascades is organized by members of the Python communities in Vancouver, Seattle, and Portland. We aim to bring together Python users and developers from both the Pacific Northwest and around the world.
