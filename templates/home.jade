@@ -16,6 +16,8 @@ block main
                     February 8th & 9th, 2020
         a.down(ng-click="scrollTo('welcome')")
             {% include "includes/chevron-down.svg" %}
+        .image-attribution
+            | Header photo © #[a(href="http://commons.wikimedia.org/wiki/User:Senapa") Steven Pavlov] / CC BY-SA 4.0
 
     section#welcome
         .background
@@ -76,7 +78,6 @@ block main
                                 #[i.fa.fa-2x.fa-slack]
 
                             | Or join our Slack team.
-
     //- section#sponsors
     //-     .main.vcontainer
     //-         .inner
