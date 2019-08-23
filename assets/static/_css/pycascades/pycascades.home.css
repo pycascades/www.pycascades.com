@@ -41,11 +41,14 @@ body.home #intro .main .logo {
 
 body.home #intro .image-attribution {
     position: relative;
-    top: -1rem;
-    font-size: 1rem;
-    color: #CCC;
+    top: 1rem;
+    left: 1rem;
+    font-size: 1.2rem;
+    color: #000;
     text-align: left;
     left: 1rem;
+    /* Match chevron height */
+    margin-bottom: -24px;
 }
 
 body.home #welcome {
