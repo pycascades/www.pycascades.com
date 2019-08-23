@@ -209,8 +209,8 @@ section#intro {
 
 body.home #intro .dates {
     font-size: 4vw;
-    font-weight: 900;
     text-align: center;
+    font-family: "09Brevia-Bold", "Open Sans", sans-serif;
 }
 
 @media (min-width: 1200px) {
