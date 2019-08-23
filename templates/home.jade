@@ -8,12 +8,14 @@ block main
     section#intro
         .background(du-parallax, y="animator")
             .image.bg-cover(ff-bg="static/backgrounds/portland.jpg")
+        .image-attribution
+            | Header photo © #[a(href="http://commons.wikimedia.org/wiki/User:Senapa") Steven Pavlov] / CC BY-SA 4.0
         .overlay
         .main.vcontainer
             .inner
                 .logo.bg-contain(ff-bg="static/images/logo.png")
                 .dates.
-                    Early 2020
+                    February 8th & 9th
         a.down(ng-click="scrollTo('welcome')")
             {% include "includes/chevron-down.svg" %}
 
@@ -25,7 +27,7 @@ block main
                 .container
                     .row.fade-up(in-view)
                         .one-half.column
-                            h2 2020 &mdash; Portland, Oregon
+                            h2 Portland, Oregon
                         .one-half.column
                             p.
                                 The second PyCascades was a success!
@@ -40,7 +42,7 @@ block main
                                 Vancouver, Seattle, and Portland Python user
                                 groups.
                             h3.caps.
-                                Dates coming soon
+                                February 8th & 9th, 2020
 
     section#newsletter
         .background(du-parallax, y="animator")
@@ -76,7 +78,6 @@ block main
                                 #[i.fa.fa-2x.fa-slack]
 
                             | Or join our Slack team.
-
     //- section#sponsors
     //-     .main.vcontainer
     //-         .inner

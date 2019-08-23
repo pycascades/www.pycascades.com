@@ -39,6 +39,18 @@ body.home #intro .main .logo {
     }
 }
 
+body.home #intro .image-attribution {
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+    font-size: 1.2rem;
+    color: #000;
+    text-align: left;
+    left: 1rem;
+    /* Match chevron height */
+    margin-bottom: -24px;
+}
+
 body.home #welcome {
     background-image:
         linear-gradient(-180deg, #FFFFFF 2%, #ABABAB 88%),
@@ -200,8 +212,8 @@ section#intro {
 
 body.home #intro .dates {
     font-size: 4vw;
-    font-weight: 900;
     text-align: center;
+    font-family: "09Brevia-Bold", "Open Sans", sans-serif;
 }
 
 @media (min-width: 1200px) {
