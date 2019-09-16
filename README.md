@@ -24,7 +24,7 @@ model in the docs](https://www.getlektor.com/docs/content/) and through the code
 here.
 
 
-## Running Lektor locally
+## Running the site locally
 
 Let's get you started with downloading the latest version of the repo:
 
@@ -33,24 +33,12 @@ $ git clone git@github.com:pycascades/www.pycascades.com.git
 $ cd www.pycascades.com
 ```
 
-Lektor needs Python (I think we all do 😉). This means you'll have to setup a
-virtualenv before you can install it:
+Our site builds using Python 3 and [Nox](https://nox.thea.codes).
+
+Once you have both you can run locally with:
 
 ```
-$ pipenv --three
-$ pipenv shell
-```
-
-Now you're ready to get things installed:
-
-```
-$ pipenv install --dev
-```
-
-And with Lektor finally installed, you can run the built-in development server:
-
-```
-$ lektor server
+$ nox -s serve
 ```
 
 You should be able to view the site by heading to
@@ -66,7 +54,7 @@ If you make changes to a CSS or Javascript file and changes aren't reflected in
 the dev server. You should clear the built cache and start the service again:
 
 ```
-$ lektor clean -yes && lektor server
+$ nox -s build
 ```
 
 Also let Seb know that he needs to fix this 😇.

@@ -1,3 +1,0 @@
-[lektor.plugins]
-jade = lektor_jade:JadeTemplatePlugin
-
