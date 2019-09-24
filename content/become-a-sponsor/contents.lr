@@ -1,10 +1,10 @@
 _template: page.jade
 ---
-title: Become A Sponsor
+title: Become a Sponsor
 ---
 body:
 
-Become our Sponsor
+Become Our Sponsor
 -------------------
 
 PyCascades is a Python conference for the Pacific Northwest. Our mission is to
@@ -12,8 +12,24 @@ improve the Python community and Python tools that you use daily. This work
 can’t be done without the generous financial support that organizations like
 yours provide.
 
-We'll be publishing our sponsorship prospectus soon. In the meantime, feel free
-to reach out to sponsorship@pycascades.com if you're interested in sponsoring.
+Levels & Benefits
+~~~~~~~~~~~~~~~~~
+
+You can find more details on **corporate** sponsorship tiers in our prospectus:
+
+`Corporate Sponsorship Prospectus (PDF)
+<https://drive.google.com/a/pycascades.com/file/d/164MyCtjCvX8dVvXz-kLnfnbcpySHAN9A/view?usp=sharing>`_
+
+For organizations that are registered as **non-profits** or work in the fields of
+**education and academia**, we have created several special sponsorship tiers:
+
+`Non-profit and Academic Sponsorship Prospectus (PDF)
+<https://drive.google.com/a/pycascades.com/file/d/1yHFLy9Q0vpz0V1jows_nRBex-AvTYeba/view?usp=sharing>`_
+
+Get in Touch
+~~~~~~~~~~~~~~~~~
+
+Reach out to sponsorship@pycascades.com if you're interested in sponsoring.
 
 
 .. compound::
