@@ -1,0 +1,29 @@
+_template: page.jade
+---
+title: Speakers
+---
+body:
+
+PyCascades is proud to feature the following speakers in 2020. More details
+about the speakers and their talks will be coming over the next few weeks. Stay
+tuned!
+
+- **Aadi Bajpai** - *Automating Away the Open-Source Maintenance Burden*
+- **Andrew Knight** - *East Meets West When Translating Django Apps*
+- **Brandon Warren** - *Introduction to the Quantum Bit*
+- **Brian Okken** - *Multiply your Testing Effectiveness with Parameterized Testing*
+- **Elena Oat** - *Testing Asynchronous Code*
+- **Emily Spahn** - *The Ethics of Aesthetics: Classifying Personal Care Products on Safety and Substance*
+- **Fen Slattery** - *Digital Accessibility Beyond Legal Compliance*
+- **Joanne Hastie** - *Programming a Robot Arm to Paint: Successes & Happy Accidents*
+- **John Reese** - *What is a Coroutine Anyways?*
+- **Julia Piaskowski** - *Adventures in Babysitting: Web Scrapping for Python and HTML Novices*
+- **Kaleb Elwert** - *Docker Made Easy: Development and Deployment from the Same Container*
+- **Kathryn Lingel** - *Pyambic Pentameter: Generating Rhyming and Metered Poems with Markov Chains and NLTK*
+- **Lorena Mesa & Mariatta Wijaya** - *9 Years of PyLadies: Lessons Learned and What Comes Next*
+- **Manav Mehra** - *Growing Plants Without Soil Using Python*
+- **Mina Slater** - *Bridging the Knowledge Gap: Code Reviews*
+- **Moshe Zadka** - *CPython Internals: Who's Afraid of the Big Bad Loop?*
+- **Rose Judge** - *Plug-in to Python: Extending Your Applications Through the Use of Plugins*
+- **Scott Shawcroft** - *Python's Next Decade and Us*
+- **Terri Oda** - *Rock On: Building Hardware and Software for a MicroPython Decibel Meter*

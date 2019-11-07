@@ -1,0 +1,74 @@
+_template: news-item.jade
+---
+title: Announcing our speakers and tickets
+---
+author: PyCascades Team
+---
+date: 2019-11-07
+---
+meta_description: Registration details and speakers for PyCascades 2020
+---
+body:
+
+We are extremely excited to announce our speaker lineup and open ticket sales for PyCascades 2020. 🎉🎉🎉
+
+
+Tickets
+--------
+
+Tickets are now available on `Tito <https://ti.to/pycascades/pycascades-2020>`__.
+Our ticket prices are $75 for students, $100 for individuals, and $200 for
+corporate attendees.
+
+We have grants available if you need financial assistance to attend PyCascades.
+Please note that we've extended the deadline for grant applications from
+November 15 to **November 22nd**. Please get your application in as soon as
+possible!
+
+Finally, a reminder that PyCascades 2020 will take place on **Saturday, February
+8th & Sunday, February 9th** at `Revolution Hall
+<https://www.revolutionhall.com/gallery/facilities/>`__ in Portland, Oregon.
+We'll also have our community sprints at Revolution Hall on **Monday, February
+10th** as well as a pre-conference social on **Friday, February 7th**.
+
+
+Our speakers
+-------------
+
+Now for the most exciting part: our speakers! Out of over 200 wonderful
+submissions we had the difficult task of choosing just 20 speakers. We'd like to
+thank everyone who submitted a talk and we encourage you all to submit again
+next year.
+
+We're so excited to feature the following speakers:
+
+- **Aadi Bajpai** - *Automating Away the Open-Source Maintenance Burden*
+- **Andrew Knight** - *East Meets West When Translating Django Apps*
+- **Brandon Warren** - *Introduction to the Quantum Bit*
+- **Brian Okken** - *Multiply your Testing Effectiveness with Parameterized Testing*
+- **Elena Oat** - *Testing Asynchronous Code*
+- **Emily Spahn** - *The Ethics of Aesthetics: Classifying Personal Care Products on Safety and Substance*
+- **Fen Slattery** - *Digital Accessibility Beyond Legal Compliance*
+- **Joanne Hastie** - *Programming a Robot Arm to Paint: Successes & Happy Accidents*
+- **John Reese** - *What is a Coroutine Anyways?*
+- **Julia Piaskowski** - *Adventures in Babysitting: Web Scrapping for Python and HTML Novices*
+- **Kaleb Elwert** - *Docker Made Easy: Development and Deployment from the Same Container*
+- **Kathryn Lingel** - *Pyambic Pentameter: Generating Rhyming and Metered Poems with Markov Chains and NLTK*
+- **Lorena Mesa & Mariatta Wijaya** - *9 Years of PyLadies: Lessons Learned and What Comes Next*
+- **Manav Mehra** - *Growing Plants Without Soil Using Python*
+- **Mina Slater** - *Bridging the Knowledge Gap: Code Reviews*
+- **Moshe Zadka** - *CPython Internals: Who's Afraid of the Big Bad Loop?*
+- **Rose Judge** - *Plug-in to Python: Extending Your Applications Through the Use of Plugins*
+- **Scott Shawcroft** - *Python's Next Decade and Us*
+- **Terri Oda** - *Rock On: Building Hardware and Software for a MicroPython Decibel Meter*
+
+More details about these speakers and their talks will be coming to our website
+in the next few weeks, so stay tuned!
+
+Last & least
+-------------
+
+As always, reach out to us at organizers@pycascades.com if you have any
+questions or concerns. Also, don't forget to subscribe to our `newsletter
+</#newsletter>`__ to stay up-to-date on everything PyCascades (it's only
+important stuff, we promise)!
