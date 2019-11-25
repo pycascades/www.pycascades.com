@@ -44,22 +44,22 @@ block main
         a.down(ng-click="scrollTo('hotels')")
             {% include "includes/chevron-down.svg" %}
 
-    {% set hotels = site.query('/hotels').include_undiscoverable(True) %}
-    section#hotels
-        .background(du-parallax, y="animator")
-            .image.bg-cover(ff-bg="/static/images/bedroom_door.jpg")
-        .overlay
-        .main.vcontainer
-            .inner
-                .container
-                    HOTELS {{ hotels }}
-                    .row.fade-up(in-view)
-                        {% for hotel in hotels %}
-                        .one-third.column
-                            h3 {{ hotel.name }}
-                            p  {{ hotel.description }}
-                            a(href="{{ hotel.website }}") Find out more &hellip;
-                        {% endfor %}
+    //{% set hotels = site.query('/hotels').include_undiscoverable(True) %}
+    //section#hotels
+    //    .background(du-parallax, y="animator")
+    //        .image.bg-cover(ff-bg="/static/images/bedroom_door.jpg")
+    //    .overlay
+    //    .main.vcontainer
+    //        .inner
+    //            .container
+    //                HOTELS {{ hotels }}
+    //                .row.fade-up(in-view)
+    //                    {% for hotel in hotels %}
+    //                    .one-third.column
+    //                        h3 {{ hotel.name }}
+    //                        p  {{ hotel.description }}
+    //                        a(href="{{ hotel.website }}") Find out more &hellip;
+    //                    {% endfor %}
 
 append bottom
     link(
