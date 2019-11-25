@@ -76,12 +76,12 @@ append bottom
     )
 
     script.
-        var kaneHallCoordinates = [45.5191784,-122.654018];
+        var revHallCoordinates = [45.5191784,-122.654018];
         var map = L.map(
             'map', {
                 scrollWheelZoom: false,
             }
-        ).setView(kaneHallCoordinates, 16);
+        ).setView(revHallCoordinates, 16);
         mapLink =
             '<a href="http://openstreetmap.org">OpenStreetMap</a>';
 
@@ -93,10 +93,10 @@ append bottom
             ext: 'png'
         }).addTo(map);
 
-        var kaneHall = L.marker(kaneHallCoordinates).bindPopup(
+        var revHall = L.marker(revHallCoordinates).bindPopup(
             '<h3>Revolution Hall</h3>' +
             '1300 SE Stark Street<br>' +
             'Portland, OR<br><br>' +
             '<a style="color: black" href="https://goo.gl/maps/cjPamvurMyYEKwig7">View on Google Maps</a>'
         ).addTo(map);
-        kaneHall.openPopup();
+        revHall.openPopup();
