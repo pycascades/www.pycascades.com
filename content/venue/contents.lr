@@ -1,0 +1,25 @@
+_template: venue.jade
+---
+title: Our Venue
+---
+background: /static/backgrounds/revolution_hall.jpg
+---
+body:
+
+Revolution Hall
+~~~~~~~~~~~~~~~~
+
+Revolution Hall is a performing arts center and concert venue at the heart of the iconic Washington High School building, in Portland's Buckman neighborhood. Built in 1906, the school was closed in 1981 due to low enrollment, and since 2013 it has been completely renovated and restored to accommodate offices, bars, two cafes, flex-use space + the historic auditorium.
+
+**Address:**
+
+.. raw:: html
+
+    1300 SE Stark Street <br>
+    Portland, OR  97214<br>
+
+---
+credit:
+
+Image credit: `Melissa D. Jones <https://flickr.com/photos/tedxconcordiauportland/17360140726/>`_
+(`CC BY-NC-ND 2.0 <https://creativecommons.org/licenses/by-nc-nd/2.0/>`_)
