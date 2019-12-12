@@ -1,0 +1,58 @@
+_template: page.jade
+---
+title: Sprints
+---
+body:
+
+.. _sprint:
+
+Sprint at PyCascades
+====================
+
+Development sprints are a key part of PyCascades. It is an opportunity to
+contribute and give back to Python and open source projects. At the sprint,
+attendees get to collaborate in person with other contributors and maintainers.
+
+
+When: Monday, February 10th, 2019, 9am to 5pm.
+
+Who: Those registered to Sprint. Space is limited, and we will open Sprint tickets soon.
+
+Sprint coordinator: TBD
+
+**Lunch and snacks will be provided.**
+
+Thank you for sprinting and contributing to open source!
+
+Projects
+---------
+
+Propose a `pull request <https://github.com/pycascades/welcome-wagon-2019>`_ to
+add your project. You can also discuss sprint on our #sprints channel on
+`Slack <http://bit.ly/pycascades-slack>`_.
+
+Example:
+
+Open_Source_Project
++++++++++++++++++++
+
+* Lead: ??
+
+* Interested people: ??
+
+* Repo: ??
+
+* Communication channel: Slack? IRC? zulip? Twitter? email? Gitter?
+
+<any additional info>
+
+Read the Docs
+++++++++++++++
+
+* Lead: Eric Holscher (@ericholscher)
+
+* Interested people: ??
+
+* Repo: https://github.com/readthedocs/readthedocs.org
+
+Whatever people are interested in!
