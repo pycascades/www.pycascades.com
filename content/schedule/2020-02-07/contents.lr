@@ -1,0 +1,12 @@
+_model: schedule_day
+---
+_template: schedule_day.jade
+---
+title: Reception
+---
+date: 2020-02-07
+---
+program:
+
+start, end, description, link
+5:00pm, 8:00pm, Welcome Reception
