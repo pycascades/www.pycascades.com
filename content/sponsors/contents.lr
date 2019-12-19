@@ -1,8 +1,6 @@
 ---
 _model: sponsors
 ---
-_hidden: true
----
 _template: sponsors.jade
 ---
 title: Our Sponsors
