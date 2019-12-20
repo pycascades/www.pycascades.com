@@ -1,0 +1,16 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Andrew Knight
+---
+bio:
+
+Andy Knight is the “Automation Panda” - an engineer, consultant, and international speaker who loves all things about software. His main passion is software testing and automation. He has designed and built robust test automation solutions for operating systems, service APIs, and Web apps with hundreds of tests running continuously. He also coaches others in good development, testing, and BDD practices. Andy currently works full-time as the lead software engineer in test at PrecisionLender, a Q2 company. Read his tech blog at AutomationPanda.com, and follow him on Twitter at @AutomationPanda.
+---
+title: East Meets West When Translating Django Apps
+---
+abstract:
+你好！我叫安迪。
+
+Please, someone translate! Translations are critical for bringing people together. Thankfully, it’s super easy to do in Django. I’ll show you how to do it like a pro. We’ll cover the basics in addition to advanced tricks like URL rerouting, translating the admin, and locale paths.
