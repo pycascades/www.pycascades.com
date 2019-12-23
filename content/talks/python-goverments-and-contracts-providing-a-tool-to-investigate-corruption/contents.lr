@@ -1,0 +1,18 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Philip James
+---
+co_speaker: José Padilla
+---
+speaker-bio:
+Froilán Irizarry is a developer, community builder, and recovering entrepreneur. He’s worked in a number of industries in both private and public sectors. Over the last five years, he’s helped organize a number of tech communities and events, including Code 4 Puerto Rico, Fullstack Nights, PyCaribbean 2017, and the Maria Tech Brigade. During his time in Washington, DC, he worked with the U.S. Digital Service, was the tech lead for Code.gov, and joined GitHub where he now helps US federal agencies use the platform to improve their code reuse and software delivery
+---
+co_speaker_bio:
+---
+title: Python, Governments, and Contracts: providing a tool to investigate corruption
+---
+abstract:
+
+Two years after Hurricane Maria struck Puerto Rico there has been a sharp increase in investigative journalism. These investigations have been around questionable contracts awarded by different government entities. We used Python and Django to consume a government site and make its data accessible.
