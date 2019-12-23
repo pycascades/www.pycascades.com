@@ -1,0 +1,15 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker:Mina Slater
+ 
+---
+bio:
+
+Julia Piaskowski is a consulting statistician for the College of Agriculture at the University of Idaho. She is long-time R user, former SAS user, occasional C programmer, and novice python programmer. She has a B.S. in Molecular Biology, M.S. in Crop Science and PhD in Crop Science. She is passionate about supporting agriculture and agricultural research.
+---
+title: Bridging the Knowledge Gap: Code Reviews
+---
+abstract:
+Most bootcamp grads and self-taught developers weren’t exposed to the idea of code reviews. How do we give one? Receive one? How should teams structure this process? With real-life tips and examples, we’ll answer these questions and set our early-career devs up for code review success!
