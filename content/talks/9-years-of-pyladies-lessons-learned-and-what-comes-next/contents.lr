@@ -1,0 +1,19 @@
+_model: talk
+---
+_template: talk.jade
+---
+speaker: Lorena Mesa
+---
+bio:
+
+Political scientist turned coder, Lorena Mesa is a data engineer on GitHub’s software intelligence systems team, Director on the Python Software Foundation, and PyLadies Chicago co-organizer. Lorena’s time at Obama for America and her subsequent graduate research required her to learn how to transform messy, incomplete data into intelligible analysis on topics like predicting Latinx voter behavior. It’s this unique background in research and applied mathematics that drove Lorena to pursue a career in engineering and data science. One part activist, one part Star Wars fanatic, and another part Trekkie, Lorena abides by the motto to “live long and prosper”.
+---
+co_speaker: Mariatta Wijaya
+---
+co_speaker_bio:
+Mariatta is a Python Core Developer, a Software Engineer at Zapier, the Vancouver PyLadies co-organizer, and one of the founding members of the PyCascades conference. She moved to Canada almost two decades ago, and now lives in Vancouver with her husband and two children. In her free time, she contributes to open source, builds GitHub bots, and fixes typos.
+---
+title: 9 Years of PyLadies: Lessons Learned and What Comes Next 
+---
+abstract:
+Have you ever wanted to learn how to web scrape but you have no idea where to start? Do you know next to nothing about html? Participants will learn different approaches for scraping web data, parsing it, and extracting the desired content using the libraries Beautiful soup, requests and Selenium. 
