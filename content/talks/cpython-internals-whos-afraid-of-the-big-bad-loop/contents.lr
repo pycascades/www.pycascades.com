@@ -1,0 +1,14 @@
+_model: talk
+---
+_template: talk.jade
+---
+speakers: moshe-zadke
+---
+bio:
+
+Moshe has been in the open source community since 1995 and in the Python community since 1999. He has been a core contributor to Python, and is a core contributor, and an early member, of the Twisted project.
+---
+title: CPython Internals: Who's Afraid of the Big Bad Loop?
+---
+abstract:
+The heart of the CPython implementation is the so-called “ceval” loop. This is the loop that runs the Python bytecode. The talk will explain the basics of the CPython execution model, and then cover the details of how the eval loop is written, as well as some of the interesting optimizations it has.

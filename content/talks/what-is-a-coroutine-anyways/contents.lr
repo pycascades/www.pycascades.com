@@ -1,0 +1,14 @@
+_model: talk
+---
+_template: talk.jade
+---
+speakers: john-reese
+---
+bio:
+
+John is a Production Engineer at Facebook, working on the internal Python Foundation team to build both open source and internal tools that make Python better for Facebook engineers and the wider Python community. They created the open source automated refactoring tool Bowler, as well as a number of AsyncIO libraries like aiosqlite and aiomultiprocess. They also have a wide variety of industry experience, including exabyte scale photo and video storage, network security, telecommunications, and video games.
+---
+title: What is a Coroutine Anyways?
+---
+abstract:
+AsyncIO uses coroutines to deliver high performance from a single thread, but how does it all work? Starting from first principles, we’ll look at the problems coroutines solve, then finish by deconstructing the AsyncIO framework. This talk is for developers of all backgrounds. No CS degree required!

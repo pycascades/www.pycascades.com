@@ -1,0 +1,11 @@
+_model: talk
+---
+_template: talk.jade
+---
+speakers: froilan-irizarry, jose-padilla
+---
+title: Python, Governments, and Contracts: providing a tool to investigate corruption
+---
+abstract:
+
+Two years after Hurricane Maria struck Puerto Rico there has been a sharp increase in investigative journalism. These investigations have been around questionable contracts awarded by different government entities. We used Python and Django to consume a government site and make its data accessible.

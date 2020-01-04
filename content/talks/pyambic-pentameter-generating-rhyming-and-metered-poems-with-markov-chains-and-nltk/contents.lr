@@ -1,0 +1,16 @@
+_model: talk
+---
+_template: talk.jade
+---
+speakers: kathryn-lingel
+---
+bio:
+
+Kathryn has been coding in Python as a student, engineer, and/or hobbyist for over 10 years, but the thrill of having computers do what she tells them to do never gets old. In her free time she loves tweeting about corgis, making bots to tweet about corgis for her, taking selfies with dinosaur statues, and playing songs on acoustic guitar that were never meant for acoustic guitar.
+---
+title: Pyambic Pentameter: generating rhyming and metered poems with Markov chains and NLTK
+---
+abstract:
+a strategy to generate a rhyme / without a human spending any time
+
+Computers may not yet be able to write poetry with soul, but they can write poetry with style, using Markov chain random text generation and hints from a pronunciation dictionary in Python’s Natural Language Toolkit (NLTK).

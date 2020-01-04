@@ -1,0 +1,9 @@
+_model: speaker
+---
+_template: speaker.jade
+---
+name: Elena Oat
+---
+bio:
+
+Elena works as a software engineer in Seattle, WA. She uses Python in her day-to-day job as well as in her free time, while meeting with peers at social events such as She’s Coding, PyLadies, Women who Code, Puppy, etc. She’s submitted a few patches to CPython and is the founder of Helsinki PyLadies chapter.

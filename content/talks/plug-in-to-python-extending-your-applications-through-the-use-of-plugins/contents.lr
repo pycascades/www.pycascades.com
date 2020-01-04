@@ -1,0 +1,14 @@
+_model: talk
+---
+_template: talk.jade
+---
+speakers: rose-judge
+---
+bio:
+
+Rose is an Open Source Engineer at VMware where she co-maintains Tern, an Open Source project written in Python that creates a Bill of Materials for a given container in order to help users make better decisions for their container supply chain. Prior to her time at VMware she spent 5 years working in the IBM Linux Technology Center packaging and debugging Linux Operating Systems. When she’s not exploring all the magic that Portland has to offer you can find her outside somewhere, most likely with her dog.
+---
+title: Plug-in to Python: Extending your applications through the use of plugins
+---
+abstract:
+Python makes it easy to load code dynamically at runtime so you can use plugins to build a more extensible application. Come learn how you can use plugins to better organize your Python applications and why you should. Some experience with Python will enhance your understanding of this talk.

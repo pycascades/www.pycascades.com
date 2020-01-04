@@ -11,16 +11,25 @@ block main
 
     .container
         {{ this.description.html }}
+        {% set speakers = site.query("/speakers").include_undiscoverable(true) %}
 
         .item-list
             {% for talk in site.query('/talks') %}
+            {% for speaker_slug in talk.speakers %}
+
+            {% set speaker = speakers.filter(F._slug == speaker_slug).first() %}
+            {% set headshot = speaker.attachments.get('headshot.jpg') %}
             .item
                 a(href="{{ talk|url }}")
-                    {% set headshot = talk.attachments.get('headshot.jpg') %}
                     {% if headshot %}
                     .headshot.image.bg-contain(
                         ff-bg="{{ headshot.thumbnail(200)|url }}",
                         ff-bg-2x="{{ headshot.thumbnail(400)|url }}"
+                    )
+                    {% elif speaker.twitter %}
+                    .headshot.image.bg-contain(
+                        ff-bg="https://avatars.io/twitter/{{speaker.twitter}}/medium",
+                        ff-bg-2x="https://avatars.io/twitter/{{speaker.twitter}}/original",
                     )
                     {% else %}
                     .headshot.image.bg-contain(
@@ -30,24 +39,7 @@ block main
                     {% endif %}
 
                     h3 {{ talk.title }}
-                    .byline {{ talk.speaker }}
-            {% if talk.co_speaker %}
-            .item
-                a(href="{{ talk|url }}")
-                    {% set headshot = talk.attachments.get('co_speaker_headshot.jpg') %}
-                    {% if headshot %}
-                    .headshot.image.bg-contain(
-                        ff-bg="{{ headshot.thumbnail(200)|url }}",
-                        ff-bg-2x="{{ headshot.thumbnail(400)|url }}"
-                    )
-                    {% else %}
-                    .headshot.image.bg-contain(
-                        ff-bg="/static/images/headshot.png",
-                        ff-bg-2x="/static/images/headshot.png",
-                    )
-                    {% endif %}
 
-                    h3 {{ talk.title }}
-                    .byline {{ talk.co_speaker }}
-            {% endif %}
+                    .byline {{ speaker.name }}
+            {% endfor %}
             {% endfor %}

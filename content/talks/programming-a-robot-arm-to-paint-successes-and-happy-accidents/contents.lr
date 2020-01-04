@@ -1,0 +1,18 @@
+_model: talk
+---
+_template: talk.jade
+---
+speakers: joanne-hastie
+---
+bio:
+
+Joanne Hastie is an artist based in Vancouver BC, Canada. Her focus is using technology to be more creative. In her current work she uses robotics, programming and paint to create art.
+For over a decade she worked as an R&D Engineer in various small companies while painting on evenings and weekends. She kept both careers very separate as they have very different communities and expertise until recently.
+
+Joanne’s first tech-art project was with a small desktop robotic arm and she taught herself to code in Python. This work earned her a 5th place in the 2018 International Robot Art competition and international press. Since then she has been incorporating machine learning algorithms and robotics throughout her work. In 2019, her painting robots have been installed in shows in Vancouver, Canada and London, UK.
+
+---
+title: Programming a robot arm to paint: successes & happy accidents
+---
+abstract:
+I paint with a robot arm. I am often asked if I miss the “happy accidents” that happen when a human paints. I actually think there are even more mistakes that happen when programming a subjective process like painting! In this talk I will share the mistakes & success of using a robotic arm to paint.

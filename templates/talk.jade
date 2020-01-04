@@ -13,9 +13,15 @@ block body_class
 block main
 
     .container
+        {% set speakers = site.query("/speakers").include_undiscoverable(true) %}
 
         h1 {{ this.title }}
-        .byline {{ this.speaker }} {% if this.co_speaker %} &amp; {{this.co_speaker}} {% endif %}
+        .byline
+            {% for speaker_slug in this.speakers %}
+            {% set speaker = speakers.filter(F._slug == speaker_slug).first() %}
+            {{ speaker.name }}
+            {% if not loop.last %} &amp; {% endif %}
+            {% endfor %}
         .abstract
             p {{ this.abstract.html }}
 
@@ -29,12 +35,19 @@ block main
             a.ext(href="{{ this.video }}", target="_blank") Video
         {% endif %}
 
+    {% for speaker_slug in this.speakers %}
+    {% set speaker = speakers.filter(F._slug == speaker_slug).first() %}
     .container
-        {% set headshot = this.attachments.get('headshot.jpg') %}
+        {% set headshot = speaker.attachments.get('headshot.jpg') %}
         {% if headshot %}
         .headshot.image.bg-contain(
             ff-bg="{{ headshot.thumbnail(200)|url }}",
             ff-bg-2x="{{ headshot.thumbnail(400)|url }}"
+        )
+        {% elif speaker.twitter %}
+        .headshot.image.bg-contain(
+            ff-bg="https://avatars.io/twitter/{{speaker.twitter}}/medium",
+            ff-bg-2x="https://avatars.io/twitter/{{speaker.twitter}}/original",
         )
         {% else %}
         .headshot.image.bg-contain(
@@ -43,27 +56,27 @@ block main
         )
         {% endif %}
 
-        h2 About {{ this.speaker }}
+        h2 About {{ speaker.name }}
         .biography
-            {{ this.bio.html }}
+            {{ speaker.bio.html }}
         .contact
-            {% if this.website %}
+            {% if speaker.website %}
             .url
-                a(href="{{ this.website }}", target="_blank").
-                    #[i.fa.fa-external-link] {{ this.website }}
+                a(href="{{ speaker.website }}", target="_blank").
+                    #[i.fa.fa-external-link] {{ speaker.website }}
             {% endif %}
-            {% if this.twitter %}
+            {% if speaker.twitter %}
             .twitter
                 a(
-                    href="https://www.twitter.com/{{ this.twitter }}",
+                    href="https://www.twitter.com/{{ speaker.twitter }}",
                     target="_blank"
                 ).
-                    #[i.fa.fa-twitter] {{ this.twitter }}
+                    #[i.fa.fa-twitter] {{ speaker.twitter }}
             {% endif %}
-            {% if this.instagram %}
+            {% if speaker.instagram %}
             .instagram
                 a(
-                    href="https://www.instagram.com/{{ this.instagram }}",
+                    href="https://www.instagram.com/{{ speaker.instagram }}",
                     target="_blank"
                 ).
                     #[i.fa.fa-instagram] {{ this.instagram }}
@@ -71,61 +84,12 @@ block main
             {% if this.github %}
             .github
                 a(
-                    href="https://www.github.com/{{ this.github }}",
+                    href="https://www.github.com/{{ speaker.github }}",
                     target="_blank"
                 ).
                     #[i.fa.fa-github] {{ this.github }}
             {% endif %}
-
-    {% if this.co_speaker %}
-    .container
-        {% set headshot = this.attachments.get('co_speaker_headshot.jpg') %}
-        {% if headshot %}
-        .headshot.image.bg-contain(
-            ff-bg="{{ headshot.thumbnail(200)|url }}",
-            ff-bg-2x="{{ headshot.thumbnail(400)|url }}"
-        )
-        {% else %}
-        .headshot.image.bg-contain(
-            ff-bg="/static/images/headshot.png",
-            ff-bg-2x="/static/images/headshot.png",
-        )
-        {% endif %}
-        h2 About {{ this.co_speaker }}
-        .biography
-            {{ this.co_speaker_bio.html }}
-        .contact
-            {% if this.co_speaker_website %}
-            .url
-                a(href="{{ this.co_speaker_website }}", target="_blank").
-                    #[i.fa.fa-external-link] {{ this.co_speaker_website }}
-            {% endif %}
-            {% if this.co_speaker_twitter %}
-            .twitter
-                a(
-                    href="https://www.twitter.com/{{ this.co_speaker_twitter }}",
-                    target="_blank"
-                ).
-                    #[i.fa.fa-twitter] {{ this.co_speaker_twitter }}
-            {% endif %}
-            {% if this.co_speaker_instagram %}
-            .instagram
-                a(
-                    href="https://www.instagram.com/{{ this.co_speaker_instagram }}",
-                    target="_blank"
-                ).
-                    #[i.fa.fa-instagram] {{ this.co_speaker_instagram }}
-            {% endif %}
-            {% if this.co_speaker_github %}
-            .github
-                a(
-                    href="https://www.github.com/{{ this.co_speaker_github }}",
-                    target="_blank"
-                ).
-                    #[i.fa.fa-github] {{ this.co_speaker_github }}
-            {% endif %}
-
-    {% endif %}
+    {% endfor %}
 
     .more
         a(href="{{ '/talks'|url }}") More Talks

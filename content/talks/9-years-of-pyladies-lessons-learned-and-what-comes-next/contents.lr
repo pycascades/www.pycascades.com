@@ -1,0 +1,9 @@
+_model: talk
+---
+_template: talk.jade
+---
+title: 9 Years of PyLadies: Lessons Learned and What Comes Next
+---
+abstract: Have you ever wanted to learn how to web scrape but you have no idea where to start? Do you know next to nothing about html? Participants will learn different approaches for scraping web data, parsing it, and extracting the desired content using the libraries Beautiful soup, requests and Selenium.
+---
+speakers: elaine-wong, lorena-mesa, mariatta-wijaya

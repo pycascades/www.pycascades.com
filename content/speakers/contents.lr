@@ -1,5 +1,7 @@
 _template: page.jade
 ---
+_hidden: true
+---
 title: Speakers
 ---
 body:

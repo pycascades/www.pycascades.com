@@ -1,0 +1,14 @@
+_model: talk
+---
+_template: talk.jade
+---
+speakers: emily-spahn
+---
+bio:
+
+Emily Spahn (she/her) is a coder and data scientist based out of Seattle. She is a licensed civil engineer and has interests in machine learning, public data, dogs, and using technology for the greater good. She currently works at DroneSeed on software to make reforestation scalable.
+---
+title: The Ethics of Aesthetics: Classifying Personal Care Products on Saftey and Substance
+---
+abstract:
+Modern skin care products often contain many ingredients with complex names. Let’s develop a system to parse an ingredient label and provide both a breakdown of the ingredient sources and the overall safety of the product given its ingredients, so we can become more informed consumers.

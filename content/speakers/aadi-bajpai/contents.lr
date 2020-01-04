@@ -1,0 +1,11 @@
+_model: speaker
+---
+_template: speaker.jade
+---
+name: Aadi Bajpai
+---
+twitter: TheClashstr
+---
+bio:
+
+Aadi is an open-source maintainer and contributor, Google Summer of Code mentor, and Google Code-in winner—all done while also being a high school student. He loves automating things and hates writing about himself in the third person.
