@@ -4,6 +4,8 @@ _template: talk.jade
 ---
 title: 9 Years of PyLadies: Lessons Learned and What Comes Next
 ---
-abstract: Have you ever wanted to learn how to web scrape but you have no idea where to start? Do you know next to nothing about html? Participants will learn different approaches for scraping web data, parsing it, and extracting the desired content using the libraries Beautiful soup, requests and Selenium.
+abstract: 9 years ago an initial group of 7 women met at PyCon USA 2011 began the world of what we know today as PyLadies. Since 2011, PyLadies has grown to 100+ chapters worldwide and the growth doesn’t seem to be stopping anytime soon! What has made PyLadies so successful in the past - its decentralization and high degree of chapter autonomy - has presented PyLadies with unseen new challenges in 2020 such as burnout, resource stagnation, and ultimately not allowed PyLadies to respond to the global community of 2020.
+
+Join three regional PyLadies organizers as they present what PyLadies has in store for the future including a global vision for community engagement and open source projects open to all.
 ---
 speakers: elaine-wong, lorena-mesa, mariatta-wijaya
