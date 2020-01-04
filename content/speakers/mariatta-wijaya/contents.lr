@@ -4,5 +4,7 @@ _template: speaker.jade
 ---
 name: Mariatta Wijaya
 ---
+twitter: mariatta
+---
 bio:
 Mariatta is a Python Core Developer, a Software Engineer at Zapier, the Vancouver PyLadies co-organizer, and one of the founding members of the PyCascades conference. She moved to Canada almost two decades ago, and now lives in Vancouver with her husband and two children. In her free time, she contributes to open source, builds GitHub bots, and fixes typos.

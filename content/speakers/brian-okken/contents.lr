@@ -4,6 +4,8 @@ _template: speaker.jade
 ---
 name: Brian Okken
 ---
+twitter: brianokken
+---
 bio:
 
 Brian Okken is team lead and lead software engineer at Rohde & Schwarz where he spends about half his time testing hardware and software using Python. Brian is the host of the Test and Code podcast, co-host of the Python Bytes podcast, the author of the premier book on pytest: "Python Testing with pytest".

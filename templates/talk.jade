@@ -44,6 +44,11 @@ block main
             ff-bg="{{ headshot.thumbnail(200)|url }}",
             ff-bg-2x="{{ headshot.thumbnail(400)|url }}"
         )
+        {% elif speaker.twitter %}
+        .headshot.image.bg-contain(
+            ff-bg="https://avatars.io/twitter/{{speaker.twitter}}/medium",
+            ff-bg-2x="https://avatars.io/twitter/{{speaker.twitter}}/original",
+        )
         {% else %}
         .headshot.image.bg-contain(
             ff-bg="/static/images/headshot.png",

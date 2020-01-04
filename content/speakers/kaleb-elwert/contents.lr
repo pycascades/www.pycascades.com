@@ -4,6 +4,8 @@ _template: speaker.jade
 ---
 name: Kaleb Elwert
 ---
+twitter: belak51
+---
 bio:
 
 Kaleb Elwert is a software engineer at The Pokémon Company International, working on the Python applications that power pokemon.com with a focus on service infrastructure and dev tools.
