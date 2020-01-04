@@ -1,0 +1,17 @@
+_hidden: yes
+---
+name: APImetrics
+---
+tier: silver
+---
+is_npo: true
+---
+website: https://apimetrics.io/
+---
+description:
+
+APImetrics API, Cloud Service and SLA monitoring and analysis that gives you answers, not excuses.
+---
+logo: apimetrics.png
+---
+signed_on: 2019-12-18
