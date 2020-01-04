@@ -27,35 +27,36 @@ Sprint coordinator: TBD
 
 Thank you for sprinting and contributing to open source!
 
-Projects
----------
+..
+    Projects
+    ---------
 
-Propose a `pull request <https://github.com/pycascades/welcome-wagon-2019>`_ to
-add your project. You can also discuss sprint on our #sprints channel on
-`Slack <http://bit.ly/pycascades-slack>`_.
+    Propose a `pull request <https://github.com/pycascades/welcome-wagon-2019>`_ to
+    add your project. You can also discuss sprint on our #sprints channel on
+    `Slack <http://bit.ly/pycascades-slack>`_.
 
-Example:
+    Example:
 
-Open_Source_Project
-+++++++++++++++++++
+    Open_Source_Project
+    +++++++++++++++++++
 
-* Lead: ??
+    * Lead: ??
 
-* Interested people: ??
+    * Interested people: ??
 
-* Repo: ??
+    * Repo: ??
 
-* Communication channel: Slack? IRC? zulip? Twitter? email? Gitter?
+    * Communication channel: Slack? IRC? zulip? Twitter? email? Gitter?
 
-<any additional info>
+    <any additional info>
 
-Read the Docs
-++++++++++++++
+    Read the Docs
+    ++++++++++++++
 
-* Lead: Eric Holscher (@ericholscher)
+    * Lead: Eric Holscher (@ericholscher)
 
-* Interested people: ??
+    * Interested people: ??
 
-* Repo: https://github.com/readthedocs/readthedocs.org
+    * Repo: https://github.com/readthedocs/readthedocs.org
 
-Whatever people are interested in!
+    Whatever people are interested in!
