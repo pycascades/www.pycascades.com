@@ -1,0 +1,9 @@
+_model: speaker
+---
+_template: speaker.jade
+---
+name: John Reese
+---
+bio:
+
+John is a Production Engineer at Facebook, working on the internal Python Foundation team to build both open source and internal tools that make Python better for Facebook engineers and the wider Python community. They created the open source automated refactoring tool Bowler, as well as a number of AsyncIO libraries like aiosqlite and aiomultiprocess. They also have a wide variety of industry experience, including exabyte scale photo and video storage, network security, telecommunications, and video games.

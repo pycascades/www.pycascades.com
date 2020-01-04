@@ -1,0 +1,9 @@
+_model: speaker
+---
+_template: speaker.jade
+---
+name: Brandon Warren
+---
+bio:
+
+Brandon Warren has worked as a software engineer for over 20 years, 12 of those years with Python as his language of choice. He is currently working at Zonar Systems, building cloud-based telematics applications. He is not a physicist, but that’s the point of his talk - non-scientists can have fun learning about the quantum world, too.

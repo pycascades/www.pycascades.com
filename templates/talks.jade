@@ -11,6 +11,7 @@ block main
 
     .container
         {{ this.description.html }}
+        {% set speakers = site.query("/speakers").include_undiscoverable(true) %}
 
         .item-list
             {% for talk in site.query('/talks') %}
@@ -30,24 +31,29 @@ block main
                     {% endif %}
 
                     h3 {{ talk.title }}
-                    .byline {{ talk.speaker }}
-            {% if talk.co_speaker %}
-            .item
-                a(href="{{ talk|url }}")
-                    {% set headshot = talk.attachments.get('co_speaker_headshot.jpg') %}
-                    {% if headshot %}
-                    .headshot.image.bg-contain(
-                        ff-bg="{{ headshot.thumbnail(200)|url }}",
-                        ff-bg-2x="{{ headshot.thumbnail(400)|url }}"
-                    )
-                    {% else %}
-                    .headshot.image.bg-contain(
-                        ff-bg="/static/images/headshot.png",
-                        ff-bg-2x="/static/images/headshot.png",
-                    )
-                    {% endif %}
 
-                    h3 {{ talk.title }}
-                    .byline {{ talk.co_speaker }}
-            {% endif %}
+                    .byline
+                        {% for slug in talk.speakers %}
+                        {% set speaker = speakers.filter(F._slug == slug).first() %}
+                        {{ speaker.name }}{% if not loop.last %}, {% endif %}
+                        {% endfor %}
+            //-{% if talk.co_speaker %}
+            //-.item
+            //-    a(href="{{ talk|url }}")
+            //-        {% set headshot = talk.attachments.get('co_speaker_headshot.jpg') %}
+            //-        {% if headshot %}
+            //-        .headshot.image.bg-contain(
+            //-            ff-bg="{{ headshot.thumbnail(200)|url }}",
+            //-            ff-bg-2x="{{ headshot.thumbnail(400)|url }}"
+            //-        )
+            //-        {% else %}
+            //-        .headshot.image.bg-contain(
+            //-            ff-bg="/static/images/headshot.png",
+            //-            ff-bg-2x="/static/images/headshot.png",
+            //-        )
+            //-        {% endif %}
+
+            //-        h3 {{ talk.title }}
+            //-        .byline {{ talk.co_speaker }}
+            //-{% endif %}
             {% endfor %}

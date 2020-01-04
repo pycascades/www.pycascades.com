@@ -1,0 +1,9 @@
+_model: speaker
+---
+_template: speaker.jade
+---
+name: Andrew Knight
+---
+bio:
+
+Andy Knight is the “Automation Panda” - an engineer, consultant, and international speaker who loves all things about software. His main passion is software testing and automation. He has designed and built robust test automation solutions for operating systems, service APIs, and Web apps with hundreds of tests running continuously. He also coaches others in good development, testing, and BDD practices. Andy currently works full-time as the lead software engineer in test at PrecisionLender, a Q2 company. Read his tech blog at AutomationPanda.com, and follow him on Twitter at @AutomationPanda.

@@ -1,0 +1,9 @@
+_model: speaker
+---
+_template: speaker.jade
+---
+name: Emily Spahn
+---
+bio:
+
+Emily Spahn (she/her) is a coder and data scientist based out of Seattle. She is a licensed civil engineer and has interests in machine learning, public data, dogs, and using technology for the greater good. She currently works at DroneSeed on software to make reforestation scalable.

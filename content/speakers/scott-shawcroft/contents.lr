@@ -1,0 +1,9 @@
+_model: speaker
+---
+_template: speaker.jade
+---
+name: Scott Shawcroft
+---
+bio:
+
+Scott Shawcroft is the project lead for CircuitPython and is sponsored by Adafruit Industries, an open source electronics company. CircuitPython is an implementation of Python that runs independent of any OS and is plug and play. It is based on MicroPython rather than CPython. CircuitPython ships on thousands of electronics every month, introducing new coders to Python on inexpensive electronics.
