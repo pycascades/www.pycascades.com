@@ -4,8 +4,6 @@ _template: speaker.jade
 ---
 name: Froilán Irizarry
 ---
-twitter: skfroi
----
 bio:
 
 Froilán Irizarry is a developer, community builder, and recovering entrepreneur. He’s worked in a number of industries in both private and public sectors. Over the last five years, he’s helped organize a number of tech communities and events, including Code 4 Puerto Rico, Fullstack Nights, PyCaribbean 2017, and the Maria Tech Brigade. During his time in Washington, DC, he worked with the U.S. Digital Service, was the tech lead for Code.gov, and joined GitHub where he now helps US federal agencies use the platform to improve their code reuse and software delivery
