@@ -1,0 +1,15 @@
+_hidden: yes
+---
+name: Twilio
+---
+tier: gold
+---
+is_npo: false
+---
+website: https://www.twilio.com
+---
+logo: twilio-logo.png
+---
+logo_dark_bg: twilio-logo.png
+---
+signed_on: 2019-12-09
