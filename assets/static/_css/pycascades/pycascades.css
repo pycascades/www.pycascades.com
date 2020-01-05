@@ -66,6 +66,13 @@ footer .sponsor-logos-footer li.rover-com {
     margin-left: -1.5rem;
     margin-right: -3rem;
 }
+/* Hack: mozilla's logo is weird as well, adjust the padding to make it display correctly. */
+footer .sponsor-logos-footer li.mozilla {
+    margin-right: -4rem;
+}
+footer .sponsor-logos-footer li.mozilla a img {
+    width: 80%;
+}
 
 /* Prevent side scrolling */
 
