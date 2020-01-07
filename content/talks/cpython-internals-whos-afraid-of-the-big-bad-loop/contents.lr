@@ -2,7 +2,7 @@ _model: talk
 ---
 _template: talk.jade
 ---
-speakers: moshe-zadke
+speakers: moshe-zadka
 ---
 bio:
 
