@@ -66,6 +66,11 @@ footer .sponsor-logos-footer li.rover-com {
     margin-left: -1.5rem;
     margin-right: -3rem;
 }
+/* Hack: Microsoft */
+footer .sponsor-logos-footer li.microsoft {
+    padding-left: -0.5rem;
+    padding-right: -0.5rem;
+}
 /* Hack: mozilla's logo is weird as well, adjust the padding to make it display correctly. */
 footer .sponsor-logos-footer li.mozilla {
     margin-right: -4rem;
@@ -699,7 +704,7 @@ footer .links li a:hover {
 
 #sponsors .sponsor-logos .item.diamond .logo,
 #sponsors .sponsor-logos .item.diamond_npo .logo {
-    height: 250px;
+    height: 200px;
 }
 
 #sponsors .sponsor-logos .item.platinum .logo,
@@ -765,7 +770,7 @@ footer .links li a:hover {
     }
     #sponsors .sponsor-logos .item.diamond .logo {
         width: 480px;
-        height: 500px;
+        height: 160px;
     }
     #sponsors .sponsor-logos .item.diamond_npo {
         width: 480px;
