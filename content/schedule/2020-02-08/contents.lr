@@ -11,7 +11,7 @@ program:
 start, end, description, link
 8:30am, 9:30am, Registration,
 9:30am, 9:45am, Welcome to PyCascades,
-9:45am, 10:10am, "Andrew Knight: East Meets West When Translating Django Apps", /talks/east-meets-west-when-translating-django-apps /
+9:45am, 10:10am, "Andrew Knight: East Meets West When Translating Django Apps", /talks/east-meets-west-when-translating-django-apps/
 10:20am, 10:45am, "Froilan Irizarry and José Padilla: Python, Governments, and Contracts: providing a tool to investigate corruption", /talks/python-goverments-and-contracts-providing-a-tool-to-investigate-corruption/
 10:55am, 11:20am, "Lorena Mesa, Mariatta Wijaya, and Elaine Wong: 9 Years of PyLadies: Lessons Learned and What Comes Next", /talks/9-years-of-pyladies-lessons-learned-and-what-comes-next/
 11:20am, 11:35am, Break,
