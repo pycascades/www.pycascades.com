@@ -9,19 +9,19 @@ date: 2020-02-08
 program:
 
 start, end, description, link
-8:30am, 9:30am, Registration,
-9:30am, 9:45am, Welcome to PyCascades,
-9:45am, 10:10am, Talk
-10:20am, 10:45am, Talk
-10:55am, 11:20am, Talk
+8:30am, 9:15am, Registration,
+9:15am, 9:45am, Welcome to PyCascades,
+9:45am, 10:10am, "Andrew Knight: East Meets West When Translating Django Apps", /talks/east-meets-west-when-translating-django-apps/
+10:20am, 10:45am, "Froilan Irizarry and José Padilla: Python, Governments, and Contracts: providing a tool to investigate corruption", /talks/python-goverments-and-contracts-providing-a-tool-to-investigate-corruption/
+10:55am, 11:20am, "Lorena Mesa, Mariatta Wijaya, and Elaine Wong: 9 Years of PyLadies: Lessons Learned and What Comes Next", /talks/9-years-of-pyladies-lessons-learned-and-what-comes-next/
 11:20am, 11:35am, Break,
-11:35am, 12:00pm, Talk
-12:10pm, 12:35pm, Talk
+11:35am, 12:00pm, "Joanne Hastie: Programming a robot arm to paint: successes & happy accidents", /talks/programming-a-robot-arm-to-paint-successes-and-happy-accidents/
+12:10pm, 12:35pm, "John Reese: What is a Coroutine Anyways?", /talks/what-is-a-coroutine-anyways/
 12:35pm, 1:50pm, Lunch,
 1:50pm, 2:20pm, Lightning Talks,
-2:30pm, 2:55pm, Talk
-3:05pm, 3:30pm, Talk
-3:40pm, 4:05pm, Talk
+2:30pm, 2:55pm, "Manav Mehra: Growing Plants without Soil using Python!", /talks/growing-plants-without-soil-using-python/
+3:05pm, 3:30pm, "Rose Judge: Plug-in to Python: Extending your applications through the use of plugins", /talks/plug-in-to-python-extending-your-applications-through-the-use-of-plugins/
+3:40pm, 4:05pm, "Brian Okken: Multiply your Testing Effectiveness with Parameterized Testing", /talks/multiplying-your-testing-effectiveness-with-parameterized-testing/
 4:05pm, 4:35pm, Coffee Break,
-4:35pm, 5:00pm, Talk
-5:10pm, 5:35pm, Talk
+4:35pm, 5:00pm, "Brandon Warren: Introduction to the Quantum Bit", /talks/introduction-to-the-quantum-bit/
+5:10pm, 5:35pm, "Mina Slater: Bridging the Knowledge Gap: Code Reviews", /talks/bridging-the-knowledge-gap-code-reviews/
