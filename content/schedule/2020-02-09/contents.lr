@@ -9,8 +9,8 @@ date: 2020-02-09
 program:
 
 start, end, description, link
-8:30am, 9:30am, Registration,
-9:30am, 9:45am, Welcome to PyCascades,
+8:30am, 9:15am, Registration,
+9:15am, 9:45am, Welcome to PyCascades,
 9:45am, 10:10am, "Terri Oda: Rock on: Building hardware and software for a MicroPython decibel meter", /talks/rock-on-building-hardware-and-software-for-a-micropython-decibel-meter/
 10:20am, 10:45am, "Julia Piaskowski: Adventures in Babysitting: Web Scrapping for Python and HTML Novices", /talks/adventures-in-babysitting-webscraping-for-python-and-html-novices/
 10:55am, 11:20am, "Kaleb Elwert: Docker Made Easy: Development and Deployment from the Same Container", /talks/docker-made-easy-development-and-deployment-from-the-same-container/
