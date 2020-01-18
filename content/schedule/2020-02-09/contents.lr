@@ -23,5 +23,5 @@ start, end, description, link
 3:05pm, 3:30pm, "Elena Oat: Testing asynchronous code", /talks/testing-asynchronous-code/
 3:40pm, 4:05pm, "Aadi Bajpai: Automating Away the Open-Source Maintenance Burden", /talks/automating-away-the-open-source-maintenance-burden/
 4:05pm, 4:35pm, Coffee Break,
-4:35pm, 5:00pm, "Fen Slattery: Digital Accessibility Beyond Legal Compliance", /talks/digital-accessibility-beyond-legal-compliance/
+4:35pm, 5:00pm, "Brian Okken: Multiply your Testing Effectiveness with Parameterized Testing", /talks/multiplying-your-testing-effectiveness-with-parameterized-testing/
 5:10pm, 5:35pm, "Scott Shawcroft: Python's Next Decade and Us", /talks/pythons-next-decade-and-us/
