@@ -1,5 +1,6 @@
+# We are using this link on our CoC banner. This has to be before the generic
+# www redirect for higher priority.
+https://www.pycascades.com/coc https://www.pycascades.com/code-of-conduct 302!
+
 # Redirect domain aliases to primary domain
 https://www.pycascades.com/* https://2019.pycascades.com/:splat 302!
-
-# We are using this link on our CoC banner.
-https://www.pycascades.com/coc https://www.pycascades.com/code-of-conduct 302!
