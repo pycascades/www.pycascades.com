@@ -10,6 +10,6 @@ program:
 
 start, end, description, link
 9:30am, 10:00am, Welcome to the Sprints
-10:00am, 12:30pm, Sprints
+10:00am, 12:30pm, "Sprints", /sprints/
 12:30pm, 2:00pm, Lunch
-2:00pm, 5:00pm, Sprints
+2:00pm, 5:00pm, "Sprints", /sprints/
