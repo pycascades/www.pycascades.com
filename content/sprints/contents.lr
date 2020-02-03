@@ -13,29 +13,36 @@ Development sprints are a key part of PyCascades. It is an opportunity to
 contribute and give back to Python and open source projects. At the sprint,
 attendees get to collaborate in person with other contributors and maintainers.
 
+Where?
+~~~~~~~
+
 Sprints will be held at Revolution Hall on Monday, February 10th from 9:30am to 5pm.
-
-
-Logistics
-~~~~~~~~~
-
-See the `Schedule </schedule>`_ for information on the exact date and time.
-
-Sprint coordinator: Timothy Crosley
 
 **Lunch and snacks will be provided.**
 
+Projects
+~~~~~~~~~
+Propose a project to sprint on via `this form <https://forms.gle/rVdjee9Wroyxcdh37>`_. Your project will then be added to this page!
+
+Participation
+~~~~~~~~~~~~~~
+
+Plan on participating in sprints? Please RSVP at `this link <https://ti.to/pycascades/pycascades-2020/with/dob2f4v367i>`_. so that we can get an accurate headcount for our food order.
+
 Thank you for sprinting and contributing to open source!
+
+Questions?
+~~~~~~~~~~~
+
+Sprint coordinator: Timothy Crosley
+
+You can also discuss sprint on our #sprints channel on `Slack <http://bit.ly/pycascades-slack>`_.
+
+For any outstanding questions, reach out to organizers@pycascades.com.
 
 ..
     Projects
     ---------
-
-    Propose a `pull request <https://github.com/pycascades/welcome-wagon-2019>`_ to
-    add your project. You can also discuss sprint on our #sprints channel on
-    `Slack <http://bit.ly/pycascades-slack>`_.
-
-    Example:
 
     Open_Source_Project
     +++++++++++++++++++
