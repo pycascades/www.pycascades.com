@@ -36,14 +36,27 @@ Thank you for sprinting and contributing to open source!
 Questions?
 ~~~~~~~~~~~
 
-Sprint coordinator: Timothy Crosley
+Sprint coordinator: Timothy Crosley (timothy.crosley@gmail.com)
 
-You can also discuss sprint on our #sprints channel on `Slack <https://join.slack.com/t/pycascades/shared_invite/enQtMjkzMzA3MTAwNzM2LTY2ZjQxYWM0MzNiZmM4NzNkMzQ2ODM3OGJmZDU4NWJhMjRiZWM1ZTMyMmYyMDAyMjhiZTQwNzRiNmU3NGQ3Y2U>`_.
+You can also discuss sprints on our #sprints channel on `Slack <https://join.slack.com/t/pycascades/shared_invite/enQtMjkzMzA3MTAwNzM2LTY2ZjQxYWM0MzNiZmM4NzNkMzQ2ODM3OGJmZDU4NWJhMjRiZWM1ZTMyMmYyMDAyMjhiZTQwNzRiNmU3NGQ3Y2U>`_.
 
 For any outstanding questions, reach out to organizers@pycascades.com.
 
 Available Projects
 -------------------
+
+CPython
++++++++++++++++++++
+
+* Leads: Guido van Rossum and Carol Willing
+
+* Repo: https://github.com/python/cpython
+
+* Communication channel: https://discuss.python.org
+
+* Issue list: https://bugs.python.org
+
+* Development guide: https://devguide.python.org
 
 Bokeh
 +++++++++++++++++++
@@ -53,6 +66,84 @@ Bokeh
 * Repo: https://github.com/bokeh/bokeh
 
 * Communication channel: https://discourse.bokeh.org
+
+* Issue list: https://github.com/bokeh/bokeh/issues
+
+* Development guide: https://docs.bokeh.org/en/latest/docs/dev_guide.html
+
+pandas-vet
++++++++++++++++++++
+
+* Lead: Jacob Deppen
+
+* Repo: https://github.com/deppen8/pandas-vet
+
+* Communication channel: PyCascades Slack (#pandas-vet-sprint)
+
+* Issue list: https://github.com/deppen8/pandas-vet/issues
+
+* Development guide: https://github.com/deppen8/pandas-vet#contributing
+
+Flask, Jinja, Click, Werkzeug
++++++++++++++++++++++++++++++
+
+* Lead: David Lord
+
+* Repo: https://github.com/pallets
+
+* Communication channel: https://discord.gg/t6rrQZH
+
+* Issue list: https://github.com/pallets/flask/issues
+
+* Development guide: https://github.com/pallets/flask/blob/master/CONTRIBUTING.rst
+
+Hug API Framework
++++++++++++++++++++
+
+* Lead: Jason Tyler
+
+* Repo: https://github.com/hugapi/hug
+
+* Communication channel: https://gitter.im/timothycrosley/hug
+
+* Issue list: https://github.com/hugapi/hug/issues
+
+* Development guide: https://hugapi.github.io/hug/CONTRIBUTING/
+
+isort
++++++++++++++++++++
+
+* Lead: Timothy Crosley
+
+* Repo: https://github.com/timothycrosley/isort/
+
+* Communication channel: https://gitter.im/timothycrosley/isort
+
+* Development guide: https://timothycrosley.github.io/isort/docs/contributing/1.-contributing-guide/
+
+Remote Led:
+
+FastAPI, Typer
++++++++++++++++++++
+
+* Lead: Sebastián Ramírez
+
+* Repo: https://github.com/tiangolo/fastapi
+
+* Communication channel: https://gitter.im/tiangolo/fastapi and available for video chat
+
+* Development guide: https://fastapi.tiangolo.com/contributing/
+
+MicroPython
++++++++++++++++++++
+
+* Lead: Scott Shawcroft (available via @tannewt#4653 on adafruit discord)
+
+* Repo: https://github.com/micropython/micropython
+
+* Communication channel:  https://adafru.it/discord #circuitpython channel
+
+* Development guide: https://github.com/micropython/micropython/wiki/ContributorGuidelines
 
 ..
     Projects
@@ -69,6 +160,10 @@ Bokeh
 
     * Communication channel: Slack? IRC? zulip? Twitter? email? Gitter?
 
+    * Issue list: ??
+
+    * Development guide: ??
+
     <any additional info>
 
     Read the Docs
@@ -79,5 +174,9 @@ Bokeh
     * Interested people: ??
 
     * Repo: https://github.com/readthedocs/readthedocs.org
+
+    * Issue list: ??
+
+    * Development guide: ??
 
     Whatever people are interested in!
