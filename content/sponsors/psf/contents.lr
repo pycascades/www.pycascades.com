@@ -1,0 +1,17 @@
+_hidden: yes
+---
+name: Python Software Foundation
+---
+tier: supporting
+---
+is_npo: true
+---
+website: https://www.python.org
+---
+description:
+
+The mission of the Python Software Foundation is to promote, protect, and advance the Python programming language, and to support and facilitate the growth of a diverse and international community of Python programmers.
+---
+logo: psf.png
+---
+signed_on: 2019-12-12
