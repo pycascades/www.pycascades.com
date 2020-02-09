@@ -48,6 +48,8 @@ Available Projects
 CPython
 +++++++++++++++++++
 
+The Python programming language.
+
 * Leads: Guido van Rossum and Carol Willing
 
 * Repo: https://github.com/python/cpython
@@ -60,6 +62,8 @@ CPython
 
 Bokeh
 +++++++++++++++++++
+
+Interactive Data Visualization in the browser, from Python.
 
 * Lead: Bryan Van de Ven
 
@@ -74,6 +78,8 @@ Bokeh
 pandas-vet
 +++++++++++++++++++
 
+pandas-vet is a plugin for flake8 that provides opinionated linting for pandas code.
+
 * Lead: Jacob Deppen
 
 * Repo: https://github.com/deppen8/pandas-vet
@@ -86,6 +92,8 @@ pandas-vet
 
 Flask, Jinja, Click, Werkzeug
 +++++++++++++++++++++++++++++
+
+The Python micro framework for building web applications.
 
 * Lead: David Lord
 
@@ -100,6 +108,8 @@ Flask, Jinja, Click, Werkzeug
 Hug API Framework
 +++++++++++++++++++
 
+Embrace the APIs of the future. Hug aims to make developing APIs as simple as possible, but no simpler.
+
 * Lead: Jason Tyler
 
 * Repo: https://github.com/hugapi/hug
@@ -110,8 +120,23 @@ Hug API Framework
 
 * Development guide: https://hugapi.github.io/hug/CONTRIBUTING/
 
+cruft
++++++++++++++++++++
+
+Cookiecutter with auto-syncing.
+
+* Lead: Peter Olson
+
+* Repo: https://github.com/timothycrosley/cruft/
+
+* Communication channel: https://gitter.im/timothycrosley/cruft
+
+* Development guide: https://timothycrosley.github.io/cruft/docs/contributing/1.-contributing-guide/
+
 isort
 +++++++++++++++++++
+
+A Python command line utility and library to sort imports.
 
 * Lead: Timothy Crosley
 
@@ -126,6 +151,8 @@ Remote Led:
 FastAPI, Typer
 +++++++++++++++++++
 
+FastAPI framework, high performance, easy to learn, fast to code, ready for production.
+
 * Lead: Sebastián Ramírez
 
 * Repo: https://github.com/tiangolo/fastapi
@@ -136,6 +163,8 @@ FastAPI, Typer
 
 MicroPython
 +++++++++++++++++++
+
+A lean and efficient Python implementation for microcontrollers and constrained systems.
 
 * Lead: Scott Shawcroft (available via @tannewt#4653 on adafruit discord)
 
