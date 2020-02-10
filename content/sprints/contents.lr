@@ -161,18 +161,18 @@ FastAPI framework, high performance, easy to learn, fast to code, ready for prod
 
 * Development guide: https://fastapi.tiangolo.com/contributing/
 
-MicroPython
+CircuitPython
 +++++++++++++++++++
 
-A lean and efficient Python implementation for microcontrollers and constrained systems.
+CircuitPython - a Python implementation for teaching coding with microcontrollers
 
 * Lead: Scott Shawcroft (available via @tannewt#4653 on adafruit discord)
 
-* Repo: https://github.com/micropython/micropython
+* Repo: https://github.com/adafruit/circuitpython
 
 * Communication channel:  https://adafru.it/discord #circuitpython channel
 
-* Development guide: https://github.com/micropython/micropython/wiki/ContributorGuidelines
+* Development guide: https://github.com/adafruit/circuitpython/blob/master/CONTRIBUTING.md
 
 ..
     Projects
