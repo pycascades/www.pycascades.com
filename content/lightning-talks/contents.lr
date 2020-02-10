@@ -7,6 +7,39 @@ body:
 Lightning talks
 ----------------
 
+Selected Lightning Talks
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Day 1**
+~~~~~~~~~
+
+Ashley Whetter: sphix-autoapi: `Generating documentation with static analysis <https://docs.google.com/presentation/d/1WqsKSL88CDxdzHFR6J66vcU_85EbcNcQ4dbi5LCIWvk/edit#slide=id.g7ce099e2c8_1_0>`_
+
+Katie McLaughlin: `Django Translations for the next generation <https://docs.google.com/presentation/d/1yG8Cr1GcVcWUroPcIGHr4eqZblk5qQWIR1j0iGCuY6k/edit#slide=id.g7d7b1e67a3_0_218>`_
+
+Ashley DeSimone: `EdkRepo: The Multi-Repo Tool <https://drive.google.com/open?id=1Vy_f0LyDp2MoEYLMC51-fDoOzH4beiSn>`_
+
+Sev Leonard: `Semiconductor Physics Explained By Irate Avians <https://drive.google.com/file/d/1qFmDvInWdvQ_xuGmSwP_le80URHqnc8s/view?usp=sharing>`_
+
+Anne Devan-Song: `PythonPython: Data scientists solving human-snake conflict <https://drive.google.com/open?id=1lc8SkLM593uPC75oFjnTgBxoVdF5TpCq>`_ (CW: images of real snakes)
+
+Wey-Han Liaw: `PyCon TW and Why You <https://drive.google.com/open?id=1FY-qXnmoFnlGc7S4tr5mnFwny-rT1w9H>`_
+
+**Day 2**
+~~~~~~~~~
+
+Thursday Bram: `Technical Skills You Have that Political Campaigns Want <https://docs.google.com/presentation/d/1dUxNyUURClDr3rMQsGZ7N1gdfjPlv7otxA6oLBXLdtI/edit?usp=sharing>`_
+
+Luke Lee: `Shipping Python Desktop Apps <https://drive.google.com/open?id=1ht5d9zCg1neCTffrVl4z7B02pm7zERBE>`_
+
+Connie Rodriguez: `Once Upon A Time: Optimization Of A Data-driven Princess Dating Algorithm <https://docs.google.com/presentation/d/1_chKxPqGNmjo7gPn5Mzq1F5MVPK39ura-pIPe3Fa1TE/edit?usp=sharing>`_
+
+Athan Spathas: Python >= Superglue: The Making of the Glass Beatstation
+
+CyNics: `Python for Non Developers - Super Power in Every Day Life <https://drive.google.com/open?id=1cO74VT1kVwLferP9EALksyosgWnMdayt>`_
+
+Yesenia Garcia: `WIP: Data Dictionary <https://docs.google.com/presentation/d/18YT5o-__XR8QdmdYyB7vOuT_DK8Hk95zbQlQLBINdOM/edit?usp=sharing>`
+
 **What are lightning talks, and should I give one?**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -44,24 +77,4 @@ Lightning talks
    `here <https://www.writethedocs.org/conf/prague/2019/lightning-talks/>`_.
 
 
-Selected Lightning Talks
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-**Day 1**
-~~~~~~~~~
-
-Ashley Whetter: sphix-autoapi: `Generating documentation with static analysis <https://docs.google.com/presentation/d/1WqsKSL88CDxdzHFR6J66vcU_85EbcNcQ4dbi5LCIWvk/edit#slide=id.g7ce099e2c8_1_0>`_
-
-Katie McLaughlin: `Django Translations for the next generation <https://docs.google.com/presentation/d/1yG8Cr1GcVcWUroPcIGHr4eqZblk5qQWIR1j0iGCuY6k/edit#slide=id.g7d7b1e67a3_0_218>`_
-
-Ashley DeSimone: `EdkRepo: The Multi-Repo Tool <https://drive.google.com/open?id=1Vy_f0LyDp2MoEYLMC51-fDoOzH4beiSn>`_
-
-Sev Leonard: `Semiconductor Physics Explained By Irate Avians <https://drive.google.com/file/d/1qFmDvInWdvQ_xuGmSwP_le80URHqnc8s/view?usp=sharing>`_
-
-Anne Devan-Song: `PythonPython: Data scientists solving human-snake conflict <https://drive.google.com/open?id=1lc8SkLM593uPC75oFjnTgBxoVdF5TpCq>`_ (CW: images of real snakes)
-
-Wey-Han Liaw: `PyCon TW and Why You <https://drive.google.com/open?id=1FY-qXnmoFnlGc7S4tr5mnFwny-rT1w9H>`_
-
-**Day 2**
-~~~~~~~~~
 
