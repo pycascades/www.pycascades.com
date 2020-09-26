@@ -7,15 +7,15 @@ block main
 
     section#intro
         .background(du-parallax, y="animator")
-            .image.bg-cover(ff-bg="static/backgrounds/portland.jpg")
-        .image-attribution
-            | Header photo © #[a(href="http://commons.wikimedia.org/wiki/User:Senapa") Steven Pavlov] / CC BY-SA 4.0
+            .image.bg-cover(ff-bg="static/backgrounds/online.jpg")
+        //- .image-attribution
+        //-     | Header photo © #[a(href="http://commons.wikimedia.org/wiki/User:Senapa") Steven Pavlov] / CC BY-SA 4.0
         .overlay
         .main.vcontainer
             .inner
                 .logo.bg-contain(ff-bg="static/images/logo.png")
                 .dates.
-                    February 8th & 9th
+                    
         a.down(ng-click="scrollTo('welcome')")
             {% include "includes/chevron-down.svg" %}
 
@@ -27,15 +27,13 @@ block main
                 .container
                     .row.fade-up(in-view)
                         .one-half.column
-                            h2 Portland, Oregon
-                            h3 Revolution Hall
+                            h2 Online, Anywhere
+                            h3 
 
                         .one-half.column
                             p.
-                                The second PyCascades was a success!
-                                Now it's time for our third round in 2020.
-                                This time we'll be in the lovely city of
-                                Portland, Oregon.
+                                After three amazing in-person conferences,
+                                this time we're moving PyCascades online.
                             p.
                                 PyCascades is a regional PyCon in the
                                 Pacific Northwest, celebrating the west coast
@@ -44,7 +42,7 @@ block main
                                 Vancouver, Seattle, and Portland Python user
                                 groups.
                             h3.caps.
-                                February 8th & 9th, 2020
+                                Dates TBA
 
     section#newsletter
         .background(du-parallax, y="animator")
