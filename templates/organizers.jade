@@ -19,12 +19,18 @@ block main
         .item-list
 
             {% set organizers = site.query('/organizers').include_undiscoverable(True) %}
-            {% for organizer in organizers.filter(F.title == 'Conference Chair') %}
+            {% for organizer in organizers.filter(F.section == 'chair') %}
             {% include "includes/organizer.jade" %}
             {% endfor %}
 
         .item-list
 
-            {% for organizer in organizers.filter(F.title != 'Conference Chair') %}
+            {% for organizer in organizers.filter(F.section == 'organizer') %}
+            {% include "includes/organizer.jade" %}
+            {% endfor %}
+
+        .item-list
+
+            {% for organizer in organizers.filter(F.section == 'emeritus') %}
             {% include "includes/organizer.jade" %}
             {% endfor %}

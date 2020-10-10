@@ -1,12 +1,12 @@
 body.about section#intro .overlay {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9));
 }
 body.about.organizers .item-list {
     text-align: center;
 }
 body.about.organizers .item {
     display: inline-block;
-    width: 275px;
+    width: 300px;
     margin: 20px;
     vertical-align: top;
     margin-bottom: 50px;

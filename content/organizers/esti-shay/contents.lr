@@ -2,7 +2,9 @@ _hidden: yes
 ---
 name: Esti Shay
 ---
-title:
+section: emeritus
+---
+title: Emeritus
 ---
 email: esti@pycascades.com
 ---
@@ -10,4 +12,4 @@ twitter: esticodes
 ---
 biography:
 
-Esti is a PyLadies PDX event organizer, PNW native, and works as a software engineer in Portland OR.
+Esti is a PyLadies PDX event organizer and former PyCascades chair. She works as a software engineer for a nonprofit that is trying to save the world.

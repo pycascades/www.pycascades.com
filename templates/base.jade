@@ -49,7 +49,7 @@ html
                 .container
                     .logo
                         a.bg-contain.bg-ir(
-                            href="{{ SITE_URL }}",
+                            href="/",
                             ff-bg="/static/images/header-logo.png"
                         ) PyCascades 2021
                 {% include "includes/nav.jade" %}
@@ -57,9 +57,9 @@ html
             #main
                 block main
             
-            //- #banner
-            //-      a(href="https://ti.to/pycascades/pycascades-2020" target="_blank")
-            //-         strong Tickets Available
+            #banner
+                 a(href="https://pretalx.com/pycascades-2021/cfp" target="_blank")
+                    strong CFP open!
 
             footer
                 .container
