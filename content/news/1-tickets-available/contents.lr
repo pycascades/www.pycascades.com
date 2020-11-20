@@ -1,0 +1,12 @@
+_template: news-item.jade
+---
+title: Tickets are now available 📣 🎟
+---
+author: PyCascades Team
+---
+date: 2020-11-30
+---
+meta_description: Tickets for PyCascades 2021 are now available!
+---
+body:
+
