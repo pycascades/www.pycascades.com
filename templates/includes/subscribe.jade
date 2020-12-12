@@ -11,13 +11,15 @@ form.subscribe-form(
         value="",
         placeholder="Your Email",
         required="required"
+        aria-label="Email"
     )
-    button(type="submit")
+    button(type="submit", aria-label="Subscribe to newsletter")
         |#[i.fa.fa-send] Subscribe
     div(style="position: absolute; left: -5000px;", aria-hidden="true")
         input(
             type="text",
             name="b_910a586d174a45ddb1125ad4e_1f87464654",
             tabindex="-1",
-            value=""
+            value="",
         )
+
