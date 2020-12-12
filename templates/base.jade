@@ -98,6 +98,20 @@ html(lang="en")
                 var data = {};
                 pycascades.start(data);
 
+        block seo
+            script(type="application/ld+json").
+                {
+                  "@context" : "http://schema.org",
+                  "@type" : "Organization",
+                  "name" : "PyCascades",
+                 "url" : "https://2021.pycascades.com",
+                 "sameAs" : [
+                   "https://twitter.com/pycascades",
+                   "https://www.instagram.com/pycascades",
+                   "https://www.linkedin.com/company/pycascades"
+                   ]
+                }
+
         block analytics
             {% set GOOGLE_ANALYTICS_ID = bag('pycascades.GOOGLE_ANALYTICS_ID') %}
             {% if envvars('IS_LIVE') and GOOGLE_ANALYTICS_ID %}
