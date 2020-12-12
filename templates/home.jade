@@ -9,7 +9,7 @@ block main
         .background(du-parallax, y="animator")
             .image.bg-cover(ff-bg="static/backgrounds/online.jpg")
         .image-attribution
-            | Header photo © #[a(href="https://thea.codes") Alethea Flowers] / CC BY-SA 4.0
+            | Header photo © #[a(href="https://thea.codes", rel="noreferrer") Alethea Flowers] / CC BY-SA 4.0
         .overlay
         .main.vcontainer
             .inner
@@ -65,7 +65,8 @@ block main
                         .one-half.column.social
                             a(
                                 href="{{ bag('pycascades.TWITTER_URL') }}",
-                                target="_blank"
+                                target="_blank",
+                                rel="noreferrer"
                             ).
                                 #[i.fa.fa-2x.fa-twitter]
                             | You can also follow us.
@@ -73,7 +74,8 @@ block main
                         .one-half.column.social
                             a(
                                 href="{{ bag('pycascades.SLACK_URL') }}",
-                                target="_blank"
+                                target="_blank",
+                                rel="noreferrer"
                             ).
                                 #[i.fa.fa-2x.fa-slack]
 
