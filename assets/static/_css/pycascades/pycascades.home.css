@@ -41,7 +41,7 @@ body.home #intro .main .logo {
 
 body.home #intro .image-attribution {
     position: relative;
-    top: 1rem;
+    bottom: 1rem;
     left: 1rem;
     font-size: 1.2rem;
     color: #98D1D6;
