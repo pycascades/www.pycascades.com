@@ -1,0 +1,13 @@
+_template: news-item.jade
+---
+title: Talks & Speakers Announced
+---
+author: PyCascades Team
+---
+date: 2020-12-21
+---
+meta_description: Speakers and talks now posted on our website! 📣
+---
+body:
+
+The talks line-up is here! Today, we're announcing the `talks and speakers <TODO: Add Link>`__ we've selected for PyCascades 2021, for the traditional talk track. In addition, we're announcing the "Chaos Track," interactive programs that will be occurring on Saturday at the same time as the talks. We've posted a few of the confirmed speakers, but the full chaos track program line-up is still TBA. Hope you're as excited as we are!
