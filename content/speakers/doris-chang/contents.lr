@@ -2,8 +2,6 @@ _model: speaker
 ---
 _template: speaker.jade
 ---
-name: doris-chang
+name: Doris Chang
 ---
-bio:
-
-Doris is a second year CS student at Simon Fraser University. She is passionate about helping others learn to code. She taught Python to grade school students at her high school and hosted a workshop at the virtual try/CATCH 2020 conference for highschool girls.
+bio: Doris is a second year CS student at Simon Fraser University. She is passionate about helping others learn to code. She taught Python to grade school students at her high school and hosted a workshop at the virtual try/CATCH 2020 conference for highschool girls.
