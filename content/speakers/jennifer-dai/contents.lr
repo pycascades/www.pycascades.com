@@ -1,0 +1,9 @@
+_model: speaker
+---
+_template: speaker.jade
+---
+name: jennifer-dai
+---
+bio:
+
+Jennifer is a third-year Computing Science major at Simon Fraser University (SFU) in Vancouver, where she is the Co-President of Women in Computing Science (WiCS). She enjoys teaching programming to new coders because she believes that an accessible education in tech is the foundation of increasing diversity in this field. Jennifer was the Chair of try/CATCH 2020, a virtual conference for highschool girls to learn about programming. Last summer, Jennifer was a STEP intern at Google.

@@ -1,0 +1,9 @@
+_model: speaker
+---
+_template: speaker.jade
+---
+name: Lacey Williams Henschel
+---
+bio:
+
+Lacey Williams Henschel is a Django consultant with REVSYS with about 10 years of experience programming in Python and Django. She's a skilled technical writer, coding teacher, workshop mentor, and conference speaker who is passionate about helping complex topics go from "intimidating" to "totally doable" for people. Previously, she's spoken at DjangoCon US, DjangoCon Europe, PyGotham, Wagtail Space US, and PostgresOpen, among other conferences. She lives in Oregon with her husband, daughter, and two cats.

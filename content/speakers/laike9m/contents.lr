@@ -1,0 +1,11 @@
+_model: speaker
+---
+_template: speaker.jade
+---
+name: laike9m
+---
+bio:
+
+Software engineer at Google, been using Python since 2012.
+- Twitter: @laike9m
+- GitHub: https://github.com/laike9m

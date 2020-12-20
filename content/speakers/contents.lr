@@ -1,0 +1,27 @@
+_template: page.jade
+---
+_hidden: true
+---
+title: Speakers
+---
+body:
+
+PyCascades is proud to feature the following speakers in 2021. More details
+about the speakers and their talks will be coming over the next few weeks. Stay
+tuned!
+
+Talk track:
+
+- **Miroslav Šedivý** - *Your Name is Invalid!*
+- **Jay Miller** - *Enhancing Civics Data with Elasticsearch, pandas and Eland*
+- **Seth Michael Larson** - *Shipping Breaking Changes as the Most Downloaded Python Package*
+- **Caito Scherr** - *What Do You Get When You Combine a Snake, A Bee, and A Squirrel? - Building a Data Pipeline with Python, Beam, and Flink*
+- **Rohit Sanjay & Matthew Seal** - *Unit Testing Jupyter Notebooks - testbook*
+- **Lacey Williams Henschel** - *What You Should Know About Django REST Framework*
+- **Piper Thunstrom** - *Making Games With PPB*
+- **laike9m** - *Let’s Rethink Debugging*
+- **Hugh Brown** - *Polaris: Open Source Machine Learning for Spacecraft Operations*
+
+Chaos track:
+
+Interactive programs with Aaron Basset, Brian Okken, Michael Kennedy, Harry Parcival, Al Swigart, Geek Mom Projects, and Guido Van Rossum. More details coming soon.

@@ -1,0 +1,9 @@
+_model: speaker
+---
+_template: speaker.jade
+---
+name: Rohit Sanjay
+---
+bio:
+
+Author and maintainer at `testbook <https://github.com/nteract/testbook>`__. Incoming Software Engineer at Goldman Sachs, Bengaluru, India. Final year electronics engineering undergraduate at MIT Manipal, Karnataka, India.

@@ -1,0 +1,14 @@
+_model: talk
+---
+_template: talk.jade
+---
+_hidden: true
+---
+title: Enhancing Civics Data with Elasticsearch, pandas and Eland
+---
+abstract:
+
+The HTTP client library ‘urllib3’, the most downloaded Python package on the Python Package Index, is shipping breaking changes for the first time in over 9 years. The project is an invisible dependency to the vast majority of its users all while doing the heavy lifting for widely-deployed projects like pip, Requests, Selenium, Boto, and more. How can a project in this situation ship breaking changes without breaking the Python-verse? In this talk we’ll discuss what the breaking changes are, how we’re minimizing impact to users for each change, and what these changes mean for the future of urllib3.
+
+---
+speakers: seth-michael-larson

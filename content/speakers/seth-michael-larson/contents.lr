@@ -1,0 +1,9 @@
+_model: speaker
+---
+_template: speaker.jade
+---
+name: Seth Michael Larson
+---
+bio:
+
+Seth is the lead maintainer of urllib3 since 2019 and has been a contributor to the project since 2016. He maintains a handful of other Python Open Source projects.  Outside of Open Source Seth works as a Software Engineer at Elastic maintaining Python packages for many Elastic services as well as teaching and being an advocate, both internally and externally, for Python best practices. Seth is a Minnesota native and enjoys watching football, gardening, and being in nature.

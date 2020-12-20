@@ -1,0 +1,9 @@
+_model: speaker
+---
+_template: speaker.jade
+---
+name: Caito Scherr
+---
+bio:
+
+Caito is a Developer Advocate for Ververica (creators of Apache Flink), representing the US region, and is based in Portland, Oregon. Previously, she was a software engineer at a data analytics company and loves geeking out about metrics and stream processing. Outside of tech, Caito does woodworking/construction, dance, running, and appreciation of terrible puns.
