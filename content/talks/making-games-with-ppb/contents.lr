@@ -2,8 +2,6 @@ _model: talk
 ---
 _template: talk.jade
 ---
-_hidden: true
----
 title: Making Games With PPB
 ---
 abstract:

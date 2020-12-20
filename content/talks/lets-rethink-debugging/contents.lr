@@ -2,8 +2,6 @@ _model: talk
 ---
 _template: talk.jade
 ---
-_hidden: true
----
 title: Let’s Rethink Debugging
 ---
 abstract:

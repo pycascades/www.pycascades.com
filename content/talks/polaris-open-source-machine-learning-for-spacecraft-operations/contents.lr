@@ -2,8 +2,6 @@ _model: talk
 ---
 _template: talk.jade
 ---
-_hidden: true
----
 title: Polaris: Open Source Machine Learning for Spacecraft Operations
 ---
 abstract:

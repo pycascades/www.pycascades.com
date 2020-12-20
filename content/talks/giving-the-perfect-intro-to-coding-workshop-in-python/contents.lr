@@ -2,8 +2,6 @@ _model: talk
 ---
 _template: talk.jade
 ---
-_hidden: true
----
 title: Giving the Perfect Intro to Coding Workshop...in Python!
 ---
 abstract:

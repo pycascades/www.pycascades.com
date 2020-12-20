@@ -2,8 +2,6 @@ _model: talk
 ---
 _template: talk.jade
 ---
-_hidden: true
----
 title: Unit Testing Jupyter Notebooks - testbook
 ---
 abstract:

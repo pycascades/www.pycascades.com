@@ -2,8 +2,6 @@ _model: talk
 ---
 _template: talk.jade
 ---
-_hidden: true
----
 title: What Do You Get When You Combine a Snake, A Bee, and A Squirrel? -  Building a Data Pipeline with Python, Beam, and Flink
 ---
 abstract:
