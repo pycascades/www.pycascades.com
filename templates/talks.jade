@@ -19,12 +19,13 @@ block main
 
             {% set speaker = speakers.filter(F._slug == speaker_slug).first() %}
             {% set headshot = speaker.attachments.get('headshot.jpg') %}
+            {% set thumbnail = speaker.attachments.get('headshot-sm.jpg') %}
             .item
                 a(href="{{ talk|url }}")
-                    {% if headshot %}
+                    {% if thumbnail %}
                     .headshot.image.bg-contain(
-                        ff-bg="{{ headshot.thumbnail(200)|url }}",
-                        ff-bg-2x="{{ headshot.thumbnail(400)|url }}"
+                        ff-bg="{{ thumbnail.path }}",
+                        ff-bg-2x="{{ thumbnail.path }}",
                     )
                     {% elif speaker.twitter %}
                     .headshot.image.bg-contain(

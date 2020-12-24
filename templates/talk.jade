@@ -39,6 +39,7 @@ block main
     {% set speaker = speakers.filter(F._slug == speaker_slug).first() %}
     .container
         {% set headshot = speaker.attachments.get('headshot.jpg') %}
+        {% set thumbnail = speaker.attachments.get('headshot-sm.jpg') %}
         {% if headshot %}
         .headshot.image.bg-contain(
             ff-bg="{{ headshot.thumbnail(200)|url }}",
@@ -48,6 +49,11 @@ block main
         .headshot.image.bg-contain(
             ff-bg="https://avatars.io/twitter/{{speaker.twitter}}/medium",
             ff-bg-2x="https://avatars.io/twitter/{{speaker.twitter}}/original",
+        )
+        {% elif thumbnail %}
+        .headshot.image.bg-contain(
+            ff-bg="{{ thumbnail.path }}",
+            ff-bg-2x="{{ thumbnail.path }}",
         )
         {% else %}
         .headshot.image.bg-contain(

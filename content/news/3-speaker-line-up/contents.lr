@@ -1,0 +1,21 @@
+_template: news-item.jade
+---
+title: Talks & Speakers Announced
+---
+author: PyCascades Team
+---
+date: 2020-12-21
+---
+meta_description: Speakers and talks now posted on our website! 📣
+---
+body:
+
+The talks line-up is here 🎉. We're excited to announce the `talks and speakers
+<https://2021.pycascades.com/talks/>`__ we've selected for PyCascades 2021, 
+for the traditional talk track. 
+
+In more exciting news, we're announcing a new **interactive track** which will
+run parallel to the talks on Saturday. We'll announce the detailed program soon
+but you'll find some of the confirmed speakers as a little teaser on the website.
+
+We hope this is enough to get you super excited as well 🥳.``

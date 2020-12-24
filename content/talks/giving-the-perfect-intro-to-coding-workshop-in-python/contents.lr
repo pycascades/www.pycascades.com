@@ -1,0 +1,12 @@
+_model: talk
+---
+_template: talk.jade
+---
+title: Giving the Perfect Intro to Coding Workshop...in Python!
+---
+abstract:
+
+In this talk, we'll walk you through a tried and tested intro to coding workshop that you can use to teach others how to code, even if you're a beginner yourself. We've given this workshop in person and remotely, and now we want to share our lessons with you on how to run a successful workshop for people who've never touched code before. We'll also give you our slides to the workshop, so you can go forth and spread Python with ease!
+
+---
+speakers: dawn-chandler, jennifer-dai, doris-chang

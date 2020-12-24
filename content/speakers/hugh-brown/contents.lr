@@ -1,0 +1,9 @@
+_model: speaker
+---
+_template: speaker.jade
+---
+name: Hugh Brown
+---
+bio:
+
+Hugh Brown has worked as a gas station attendant, sandwich artist, call center worker and surveyor's assistant, but he left these pale glories behind when he discovered the joys of Linux, system administration, and programming.  By day he's a software developer, helping to build and operate cloud services; by night he's a core contributor to the Libre Space Foundation, and one of the developers of Polaris.

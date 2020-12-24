@@ -1,0 +1,18 @@
+_model: talk
+---
+_template: talk.jade
+---
+title: Let’s Rethink Debugging
+---
+abstract:
+
+As programmers, we do debugging almost every day. What are the major options for debugging, what advantages and disadvantages do they have? We’ll start the talk by giving the audience an overview of the history of debugging and existing tools so they know how to pick from them.
+
+Then, we’ll help the audience gain a deeper understanding of what debugging is really about, and talk about two pain points with existing solutions. We’ll introduce a novel approach to solve these pain points, with basic introduction to bytecode tracing so the audience can learn this useful technique.
+
+Finally, we’ll look into the future and talk about why it’s important to be more innovative. We hope that by listening to this talk, the audience can be more open-minded thinking about debugging, and programming as a whole.
+
+No specific knowledge required, but basic experience with debugging would be helpful.
+
+---
+speakers: laike9m

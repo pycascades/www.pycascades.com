@@ -1,0 +1,11 @@
+_model: speaker
+---
+_template: speaker.jade
+---
+name: Miroslav Šedivý
+---
+twitter: eumiro
+---
+bio:
+
+A greedy polyglot, data & open source rhymer, Python charmer, sustainable urbanist, unicode collector, wandering openstreetmapper, and an hjkl juggler. @eumiro at twitter/github/stackoverflow

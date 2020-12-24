@@ -1,0 +1,11 @@
+_model: speaker
+---
+_template: speaker.jade
+---
+name: Piper Thunstrom
+---
+bio:
+
+Piper is a pythonista, game enthusiast, and web developer. You might know her from her talks given at conferences around the United States, a local tech meetup, or her open source work. She speaks on community building, game development, CS education, and trans identity in tech.
+
+She's been involved in the Python community since 2014 with previous experience as an organizer in the NYC Python user groups. You can follow her work at piper.thunstrom.dev

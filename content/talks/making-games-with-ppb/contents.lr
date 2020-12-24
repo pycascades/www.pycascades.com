@@ -1,0 +1,12 @@
+_model: talk
+---
+_template: talk.jade
+---
+title: Making Games With PPB
+---
+abstract:
+
+Python and video games are both used independently to learn software engineering, so Python game frameworks have an important role in the software development space. Come learn how to make games in Python so you can level up, too.
+
+---
+speakers: piper-thunstrom

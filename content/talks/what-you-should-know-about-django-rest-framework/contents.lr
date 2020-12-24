@@ -1,0 +1,18 @@
+_model: talk
+---
+_template: talk.jade
+---
+title: What You Should Know About Django REST Framework
+---
+abstract:
+
+When I started writing Django REST Framework code in 2017, there was a lot I didn't know, like how class-based views worked and what a serializer was.
+
+After 3+ years of using DRF, I want to share the things I've learned that make writing DRF code easier and faster for me. You will learn how to save time and lines of code by using DRF's built-in viewsets (and what a viewset is), when to skip the viewset and use a built-in generic `APIView`, and how to add custom endpoints (actions) to your viewsets. You'll also learn how modular DRF can be when you customize built-in methods or use different serializers for different parts of your viewset, and how tools like [Classy DRF](http://www.cdrf.co/) can help.
+
+You will walk away from this talk ready to start your first DRF project, make your existing projects simpler and cleaner, or (at the very least) with a better understanding of how a class-based view works.
+
+You will get the most out of this talk if you have beginner-level experience in Python and Django. A tenuous, vague understanding of how class-based views in Django work would be helpful, but is not necessary. Having completed a Django REST Framework tutorial would also be helpful.
+
+---
+speakers: lacey-williams-henschel
