@@ -2,7 +2,7 @@ _model: talk
 ---
 _template: talk.jade
 ---
-title: Enhancing Civics Data with Elasticsearch, pandas and Eland
+title: Shipping Breaking Changes as the Most Downloaded Python Package
 ---
 abstract:
 
