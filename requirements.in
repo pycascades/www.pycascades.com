@@ -2,4 +2,5 @@ lektor
 pyjade
 webassets
 cssmin
-jsmin
+git+https://github.com/tqdm/jsmin@fix-pip#egg=jsmin
+jinja2==3.0.3
