@@ -1,6 +1,6 @@
 doctype html
 
-html
+html(lang="en")
 
     head
         title {% block page_title %}PyCascades 2021 &ndash; Virtual Edition{% endblock %}
@@ -58,7 +58,7 @@ html
                 block main
             
             #banner
-                 a(href="https://pretix.eu/pycascades/remote-2021/" target="_blank")
+                 a(href="https://pretix.eu/pycascades/remote-2021/" target="_blank" rel="noreferrer")
                     strong Tickets available!
 
             footer
@@ -67,13 +67,13 @@ html
                         li
                             a(href="{{ '/code-of-conduct'|url }}") Code of Conduct
                         li.slack
-                            a(href="{{ bag('pycascades.SLACK_URL') }}", target="_blank")
+                            a(href="{{ bag('pycascades.SLACK_URL') }}", target="_blank" rel="noreferrer")
                                 |#[i.fa.fa-slack] PyCascades
                         li.twitter
-                            a(href="{{ bag('pycascades.TWITTER_URL') }}", target="_blank")
+                            a(href="{{ bag('pycascades.TWITTER_URL') }}", target="_blank" rel="noreferrer")
                                 |#[i.fa.fa-twitter] PyCascades
                         li.instagram
-                            a(href="{{ bag('pycascades.INSTAGRAM_URL') }}", target="_blank")
+                            a(href="{{ bag('pycascades.INSTAGRAM_URL') }}", target="_blank" rel="noreferrer")
                                 |#[i.fa.fa-instagram] PyCascades
 
                     block logos
@@ -97,6 +97,20 @@ html
             script.
                 var data = {};
                 pycascades.start(data);
+
+        block seo
+            script(type="application/ld+json").
+                {
+                  "@context" : "http://schema.org",
+                  "@type" : "Organization",
+                  "name" : "PyCascades",
+                 "url" : "https://2021.pycascades.com",
+                 "sameAs" : [
+                   "https://twitter.com/pycascades",
+                   "https://www.instagram.com/pycascades",
+                   "https://www.linkedin.com/company/pycascades"
+                   ]
+                }
 
         block analytics
             {% set GOOGLE_ANALYTICS_ID = bag('pycascades.GOOGLE_ANALYTICS_ID') %}

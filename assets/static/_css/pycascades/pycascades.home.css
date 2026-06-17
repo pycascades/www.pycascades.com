@@ -15,6 +15,29 @@
     body.home header.headroom--not-top .logo {
         opacity: 1;
     }
+    body.home #intro .image-attribution {
+        position: absolute;
+        bottom: 5rem;
+        right: 3rem;
+        font-size: 1.2rem;
+        color: #98D1D6;
+        text-align: left;
+        /* Match chevron height */
+        margin-bottom: -24px;
+    }
+}
+
+@media (max-width: 750px) {
+    body.home #intro .image-attribution {
+        position: absolute;
+        top: 7rem;
+        right: 1rem;
+        font-size: 1.2rem;
+        color: #98D1D6;
+        text-align: left;
+        /* Match chevron height */
+        margin-bottom: -24px;
+    }
 }
 
 body.home header nav > ul > li.home {
@@ -37,18 +60,6 @@ body.home #intro .main .logo {
         width: 80vw;
         height: 50vh;
     }
-}
-
-body.home #intro .image-attribution {
-    position: relative;
-    top: 1rem;
-    left: 1rem;
-    font-size: 1.2rem;
-    color: #98D1D6;
-    text-align: left;
-    left: 1rem;
-    /* Match chevron height */
-    margin-bottom: -24px;
 }
 
 body.home #intro .image-attribution a {
